@@ -1,0 +1,46 @@
+.contact-us-section {
+    padding: 5rem 0;
+
+    .contact-info {
+        height: 100%;
+        background: rgb(29 33 36 / 3%);
+        padding: 30px;
+
+        h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 10px 0 10px 0;
+        }
+
+        p {
+            padding: 0;
+            line-height: 24px;
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+
+        i {
+            color: #138b88;
+            font-size: 38px;
+            line-height: normal;
+        }
+
+        .form-control {
+            font-size: 14px;
+            padding: 10px 15px;
+            box-shadow: none;
+            border-radius: 0;
+            color: #212529;
+            background-color: rgb(255 255 255 / 50%);
+            border-color: rgb(27 31 34 / 20%);
+
+            &:focus {
+                border-color: #2e994c;
+            }
+        }
+
+        button {
+            padding: 14px 28px;
+        }
+    }
+}

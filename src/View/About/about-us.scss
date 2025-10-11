@@ -1,0 +1,52 @@
+.about-us-section {
+    padding: 5rem 0;
+
+    .about-us-content {
+        h3 {
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        h5 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-top: 1rem;
+                text-align: justify;
+        }
+    }
+
+
+    .scrap-shop-img {
+        padding: 0 20px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+// MOBILE VIEW MEDIA QUERY
+@media screen and (max-width: 480px) {
+    .about-us-section {
+        .about-us-content {
+            h3 {
+                font-size: 30px;
+            }
+
+            h5 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+         .scrap-shop-img {
+            padding: 0;
+         }
+    }
+}

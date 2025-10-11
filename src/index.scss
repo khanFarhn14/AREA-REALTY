@@ -1,0 +1,223 @@
+@font-face {
+  font-family: 'BR Omny';
+  src: url('./assets/fonts/BR-OMNY/BROmny-Regular-BF65557eb88143f.otf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BR Omny';
+  src: url('./assets/fonts/BR-OMNY/BROmny-SemiBold-BF65557eb890e9a.otf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BR Omny';
+  src: url('./assets/fonts/BR-OMNY/BROmny-Bold-BF65557eb88a83f.otf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'BR Omny', sans-serif;
+  background-color: #fbfcfe;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+
+  .btn-class {
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 18px 36px;
+    line-height: normal;
+    background-color: #33944E;
+  }
+
+  .form-control {
+    &:focus {
+      border-color: #2e994c;
+    }
+
+  }
+
+  .main-app {
+    // PAGE TITLE
+    .page-title {
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url("./assets/img/home/metal-scraps.png");
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 0;
+        background-color: hsl(0deg 0% 0% / 70%);
+      }
+
+      .bread-crumb-content {
+        text-align: center;
+        position: relative;
+        z-index: 2;
+
+        h2 {
+          color: #ffffff;
+          font-weight: 600;
+          text-transform: capitalize;
+        }
+
+        .bread-crumb {
+          position: relative;
+          display: inline-block;
+          margin-top: 15px;
+          text-align: center;
+
+          li {
+            position: relative;
+            font-weight: 400;
+            display: inline-block;
+            font-size: 16px;
+            text-transform: capitalize;
+            color: #f3f3f3;
+
+            a {
+              color: #f3f3f3;
+
+              &:hover {
+                color: #ffffff;
+                text-decoration: underline;
+              }
+            }
+
+            &:first-child {
+              margin-right: 25px;
+
+              &::after {
+                position: absolute;
+                right: -15px;
+                top: 2px;
+                content: "-";
+                line-height: 1em;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+
+    // SECTION TITLE
+    .section-title {
+      text-align: center;
+      margin-bottom: 4rem;
+
+      h3 {
+        color: #141414;
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        padding-bottom: 15px;
+        position: relative;
+        text-transform: uppercase;
+
+        &::before,
+        &::after {
+          content: "";
+          position: absolute;
+          display: block;
+        }
+
+        &::before {
+          width: 120px;
+          height: 1px;
+          bottom: 1px;
+          left: calc(50% - 60px);
+          background: #141414;
+        }
+
+        &::after {
+          width: 40px;
+          height: 4px;
+          bottom: 0px;
+          left: calc(50% - 20px);
+          background: #141414;
+        }
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+
+  }
+}
+
+// MOBILE VIEW MEDIA QUERY
+@media screen and (max-width: 480px) {
+  body {
+    .btn-class {
+      padding: 15px 30px;
+    }
+
+    .main-app {
+      margin-top: 76px;
+
+      .section-title {
+        padding: 0 10px;
+
+        h3 {
+          font-size: 22px;
+        }
+
+        p {
+          font-size: 12px;
+        }
+      }
+
+      .page-title {
+        height: 200px;
+
+        .bread-crumb-content {
+          h2 {
+            font-size: 20px;
+            line-height: normal;
+          }
+
+          .bread-crumb {
+            margin-top: 8px;
+
+
+            li {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
