@@ -10,6 +10,8 @@ import Contact from './View/Contact/contact-us';
 import Footer from './View/_Common/Footer';
 import NGO from './View/Donation/ngo';
 import Loader from './View/_Common/loader';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function App() {
   useEffect(() => {

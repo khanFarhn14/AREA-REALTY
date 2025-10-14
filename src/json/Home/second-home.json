@@ -1,0 +1,32 @@
+[
+    {
+        "img": "img_1.jpg",
+        "name": "Luxury Villas",
+        "des": "Experience the epitome of elegance and comfort in our luxury villas. Designed with exquisite architecture, premium amenities, and lush surroundings, these villas offer a serene retreat with unmatched sophistication."
+    },
+    {
+        "img": "img_2.jpg",
+        "name": "Farm Houses",
+        "des": "Escape to the countryside with our charming farmhouses. Perfect for weekend getaways, these homes combine rustic charm with modern conveniences, giving you a peaceful and rejuvenating lifestyle close to nature."
+    },
+    {
+        "img": "img_3.jpg",
+        "name": "Holiday Homes",
+        "des": "Make every vacation unforgettable with our holiday homes. Strategically located in scenic destinations, these homes provide a cozy, fully-equipped space to relax, unwind, and create lasting memories with family and friends."
+    },
+    {
+        "img": "img_4.jpg",
+        "name": "Gated Communities",
+        "des": "Live in a secure and vibrant neighborhood within our gated communities. With well-planned infrastructure, recreational facilities, and 24/7 security, these communities offer both safety and a sense of belonging."
+    },
+    {
+        "img": "img_5.jpg",
+        "name": "Weekend Retreats",
+        "des": "Recharge your mind and body with our weekend retreats. Nestled in tranquil locations, these properties are ideal for short escapes, offering privacy, nature, and a perfect balance of relaxation and leisure activities."
+    },
+    {
+        "img": "img_6.jpg",
+        "name": "Investment Villas",
+        "des": "Invest in prime real estate with our investment villas. Designed for both luxury living and high rental potential, these villas offer excellent long-term value, combining lifestyle benefits with profitable returns."
+    }
+]

@@ -1,7 +1,6 @@
 import React from "react";
 import "./about-us.scss";
-import { Container, Row, Col, Image } from "react-bootstrap";
-import scrapShop from "../../assets/img/old-scrap-shop.png";
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function About() {
     return (
@@ -49,7 +48,7 @@ export default function About() {
                         </Col>
                         <Col sm={12} md={6} className="order-1 order-md-2">
                             <div className="scrap-shop-img">
-                                <Image src={scrapShop} alt="show" />
+                                asdsad
                             </div>
                         </Col>
                     </Row>

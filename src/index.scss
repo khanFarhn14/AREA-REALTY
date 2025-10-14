@@ -52,10 +52,71 @@ body {
     &:focus {
       border-color: #2e994c;
     }
+  }
+
+    .common-btn {
+      display: inline-block;
+      text-transform: capitalize;
+      font-size: 15px;
+      font-weight: 600;
+      padding: 13px 30px;
+      background-color: #038f9d;
+      color: #fff;
+      border: none;
+      -webkit-transition: 0.2s;
+      transition: 0.2s;
+      border-radius: 5px;
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+  
+      &:hover,
+      &:focus,
+      &:active {
+        color: #fff;
+        background-color: #081828;
+      }
+    }
+  .section-title {
+    margin-bottom: 4rem;
+    text-align: center;
+
+    h3 {
+      color: #138b88;
+      font-size: 26px;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      padding-bottom: 15px;
+      position: relative;
+      text-transform: uppercase;
+
+      &::before {
+        content: "";
+        display: block;
+        position: absolute;
+      }
+
+      &::before {
+        background: #1e6f70;
+        bottom: 1px;
+        height: 1px;
+        left: calc(50% - 60px);
+        width: 120px;
+      }
+
+      ::after {
+        background: linear-gradient(135deg, #138c89, #1e6f70);
+        bottom: 0;
+        height: 4px;
+        left: calc(50% - 20px);
+        width: 40px;
+      }
+    }
 
   }
 
   .main-app {
+
     // PAGE TITLE
     .page-title {
       height: 300px;
@@ -65,7 +126,6 @@ body {
       position: relative;
       background-size: cover;
       background-repeat: no-repeat;
-      background-image: url("./assets/img/home/metal-scraps.png");
 
       &::after {
         content: "";
@@ -172,6 +232,11 @@ body {
       p {
         font-size: 14px;
       }
+    }
+    
+
+    section {
+      padding: 5rem 0;
     }
 
   }

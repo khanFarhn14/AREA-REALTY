@@ -45,15 +45,17 @@
             align-items: center;
             gap: 5px;
             color: #d3d3d3;
+
             i {
-                 font-size: 24px;
+                font-size: 24px;
             }
 
             &:hover {
                 color: #fff;
-               span {
-                 text-decoration: underline;
-               }
+
+                span {
+                    text-decoration: underline;
+                }
             }
         }
     }
@@ -85,6 +87,148 @@
             font-size: 18px;
             margin-bottom: 25px;
         }
+
+        .home-section-content-link {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                border: 1px solid #038f9d;
+                box-shadow: 0 0 5px #038f9d, 0 0 5px #038f9d inset;
+                color: #ffffff;
+                background: transparent;
+                z-index: 2;
+                transition: all 0.3s ease;
+                overflow: hidden;
+                position: relative;
+                padding: 6px 12px;
+
+                &:after {
+                    position: absolute;
+                    content: " ";
+                    top: 0;
+                    left: 0;
+                    z-index: -1;
+                    width: 100%;
+                    height: 100%;
+                    background: #038f9d;
+                    box-shadow: 0 0 5px #038f9d;
+                    transition: all 0.3s ease;
+                    transform: scale(0);
+                    -webkit-transform: scale(0);
+                }
+
+                &:hover {
+                    color: #fff;
+
+                    &:after {
+                        transform: scale(1);
+                        -webkit-transform: scale(1);
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+// SECOND HOME LUXURY LIVING
+.second-home-section {
+    background-color: #fff;
+
+    .second-home-card {
+        border: 1px solid #eee;
+        position: relative;
+        height: 100%;
+
+        .second-home-card-img {
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 400px;
+                transition: 0.3s;
+                -webkit-transition: 0.3s;
+            }
+        }
+
+        .second-home-card-content {
+            h2 {
+                font-size: 20px;
+                font-weight: 700;
+                color: #000;
+                margin-bottom: 10px;
+            }
+
+            p {
+                color: #5c5c5c;
+                font-size: 14px;
+            }
+        }
+
+        &:hover {
+            .second-home-card-img {
+                img {
+                    transform: scale(1.1);
+                    -webkit-transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+// DXB - DUBAI INVESTMENTS SECTION
+.dxb-investments-section {
+    background-color: #f8f9fa;
+
+    .dxb-testimonial {
+        .dxb-testimonial-img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            overflow: hidden;
+            font-size: 36px;
+            display: flex;
+            line-height: normal;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            background-color: #efefef;
+            border: 2px solid transparent;
+            transition: .3s all ease;
+            -webkit-transition: .3s all ease;
+        }
+
+        .dxb-testimonial-content {
+            padding-right: 50px;
+
+            h5 {
+                font-size: 1.25rem;
+                margin-bottom: 1rem;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        &:hover {
+            .dxb-testimonial-img {
+                border: 2px solid #00204a;
+            }
+        }
+    }
+
+    .slide-item {
+        padding: 0 10px;
+        /* 10px gap on left & right */
+    }
+
+    .slick-list {
+        margin: 0 -10px;
+        /* cancel out padding so slides align perfectly */
     }
 }
 

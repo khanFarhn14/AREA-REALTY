@@ -1,0 +1,32 @@
+[
+    {
+        "img": "🏢",
+        "name": "Luxury Apartments",
+        "des": "Experience elegant living with our luxury apartments, designed with modern architecture, premium amenities, and stunning city views — offering the perfect blend of comfort and sophistication."
+    },
+    {
+        "img": "🏡",
+        "name": "Premium Villas",
+        "des": "Discover premium villas that redefine exclusivity and comfort. Each villa is crafted with attention to detail, spacious layouts, and world-class finishes for a truly elevated lifestyle."
+    },
+    {
+        "img": "🏬",
+        "name": "Commercial Spaces",
+        "des": "Explore high-potential commercial spaces strategically located in prime business districts — ideal for offices, retail outlets, and investment opportunities that promise strong returns."
+    },
+    {
+        "img": "🌊",
+        "name": "Waterfront Estates",
+        "des": "Indulge in serene luxury with our waterfront estates, offering breathtaking views, direct access to nature, and the perfect balance between tranquility and modern convenience."
+    },
+    {
+        "img": "💰",
+        "name": "Investment Funds",
+        "des": "Maximize your real estate portfolio with our curated investment funds, designed to deliver long-term growth, steady returns, and access to premium property opportunities."
+    },
+    {
+        "img": "🏗️",
+        "name": "Development Projects",
+        "des": "Partner with us on visionary development projects — from residential communities to mixed-use complexes — built to the highest standards of innovation, sustainability, and design excellence."
+    }
+]

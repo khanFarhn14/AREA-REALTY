@@ -12,7 +12,7 @@ export default function Footer() {
                         <Row className="gy-4">
                             <Col md={4} className="footer-col">
                                 <div className="footer-title">
-                                    <h2>Scrap Sevak</h2>
+                                    <h2>Area Reality</h2>
                                     <h3>Your truster partner for scrap  <br /> recycling solutions.</h3>
                                 </div>
 
@@ -39,7 +39,7 @@ export default function Footer() {
                         </Row>
                     </Container>
                 </div>
-                <div className="text-center copyright">Copyright © 2025 | Scrap Sevak | All Rights Reserved.</div>
+                <div className="text-center copyright">© 2025 Area Realty. All rights reserved.</div>
             </footer>
         </React.Fragment>
     )
