@@ -54,29 +54,101 @@ body {
     }
   }
 
-    .common-btn {
-      display: inline-block;
-      text-transform: capitalize;
-      font-size: 15px;
-      font-weight: 600;
-      padding: 13px 30px;
-      background-color: #038f9d;
-      color: #fff;
-      border: none;
-      -webkit-transition: 0.2s;
-      transition: 0.2s;
-      border-radius: 5px;
+  // PAGE TITLE
+  .page-title {
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgb(0 0 0 / 69%);
+    }
+
+    .page-title-content {
       position: relative;
-      z-index: 1;
-      overflow: hidden;
-  
-      &:hover,
-      &:focus,
-      &:active {
+      z-index: 2;
+
+      h2 {
         color: #fff;
-        background-color: #081828;
+        font-size: 26px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      .bread-crumb {
+        display: inline-block;
+        margin-top: 15px;
+        position: relative;
+        z-index: 2;
+
+        li {
+          color: #f3f3f3;
+          display: inline-block;
+          font-size: 16px;
+          font-weight: 400;
+          position: relative;
+          text-transform: capitalize;
+
+          &:first-child {
+            margin-right: 20px;
+
+            &::after {
+              color: #fff;
+              content: "-";
+              line-height: 1em;
+              position: absolute;
+              right: -12px;
+              top: 4px;
+            }
+
+          }
+
+          a {
+            color: #f3f3f3;
+
+            &:hover {
+              color: #fff;
+            }
+          }
+        }
       }
     }
+  }
+
+  // COMMON BTN
+  .common-btn {
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 30px;
+    background-color: #038f9d;
+    color: #fff;
+    border: none;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #fff;
+      background-color: #081828;
+    }
+  }
+
+  // SECTION TITLE
   .section-title {
     margin-bottom: 4rem;
     text-align: center;
@@ -115,81 +187,37 @@ body {
 
   }
 
-  .main-app {
 
-    // PAGE TITLE
-    .page-title {
-      height: 300px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      background-size: cover;
-      background-repeat: no-repeat;
+  .home-section-background {
+    position: absolute;
+    /* or absolute if inside another container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
 
-      &::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        z-index: 0;
-        background-color: hsl(0deg 0% 0% / 70%);
-      }
-
-      .bread-crumb-content {
-        text-align: center;
-        position: relative;
-        z-index: 2;
-
-        h2 {
-          color: #ffffff;
-          font-weight: 600;
-          text-transform: capitalize;
-        }
-
-        .bread-crumb {
-          position: relative;
-          display: inline-block;
-          margin-top: 15px;
-          text-align: center;
-
-          li {
-            position: relative;
-            font-weight: 400;
-            display: inline-block;
-            font-size: 16px;
-            text-transform: capitalize;
-            color: #f3f3f3;
-
-            a {
-              color: #f3f3f3;
-
-              &:hover {
-                color: #ffffff;
-                text-decoration: underline;
-              }
-            }
-
-            &:first-child {
-              margin-right: 25px;
-
-              &::after {
-                position: absolute;
-                right: -15px;
-                top: 2px;
-                content: "-";
-                line-height: 1em;
-                color: #ffffff;
-              }
-            }
-          }
-        }
-      }
-
+    /* keeps it behind content */
+    iframe {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100vw;
+      height: 56.25vw;
+      /* 16:9 aspect ratio (9/16 = 0.5625) */
+      min-width: 177.78vh;
+      /* (16/9 * 100vh) ensures full height */
+      min-height: 100vh;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      border: none;
     }
+  }
 
+
+  // MAIN APP
+  .main-app {
 
     // SECTION TITLE
     .section-title {
@@ -233,7 +261,7 @@ body {
         font-size: 14px;
       }
     }
-    
+
 
     section {
       padding: 5rem 0;

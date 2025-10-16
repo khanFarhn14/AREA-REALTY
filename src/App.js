@@ -5,10 +5,8 @@ import Aos from "aos";
 import 'aos/dist/aos.css';
 import "./assets/css/remixicon.css"
 import Home from './View/Home/home';
-import About from './View/About/about-us';
-import Contact from './View/Contact/contact-us';
+import Location from './View/Location/location';
 import Footer from './View/_Common/Footer';
-import NGO from './View/Donation/ngo';
 import Loader from './View/_Common/loader';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -35,9 +33,8 @@ export default function App() {
       <div className="main-app">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/donation" element={<NGO />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/location" element={<Location />} />
         </Routes>
       </div>
       <Footer />

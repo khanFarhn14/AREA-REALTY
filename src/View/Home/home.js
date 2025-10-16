@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.scss";
+import Header from "../_Common/header";
 import { Button, Card, Col, Container, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import secondHomeList from "../../json/Home/second-home.json";
@@ -15,7 +16,6 @@ export default function Home() {
         "img_5.jpg": require("../../assets/img/home/second-home/img_5.jpg"),
         "img_6.jpg": require("../../assets/img/home/second-home/img_6.jpg"),
     }
-
 
     const dubaiInvestmentSlide = {
         dots: true,
@@ -44,14 +44,11 @@ export default function Home() {
         ],
     };
 
-
     return (
         <React.Fragment>
+            <Header />
             {/* HOME SECTION SECTION */}
             <section className="home-section">
-                <div className="contact-no">
-                    <Link to="tel:+919833141311"><i className="ri-phone-line"></i> <span>+91 98331 41311</span></Link>
-                </div>
                 <div className="home-section-background">
                     <iframe
                         src="https://www.youtube.com/embed/VKAKbueezMk?autoplay=1&mute=1&loop=1&playlist=VKAKbueezMk&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&disablekb=1"
@@ -67,13 +64,13 @@ export default function Home() {
                         <p data-aos="fade-up" data-aos-delay="900">experiences - exploration - estates</p>
 
                         <div className="home-section-content-link" data-aos="fade-up" data-aos-delay="1000">
-                            <Link to="/second-homes">
+                            <Link to="/location">
                                 <span>second homes, villas and residence</span>
                             </Link>
-                            <Link to="/land-banks">
+                            <Link to="/location">
                                 <span>land banks, plots and developments</span>
                             </Link>
-                            <Link to="/international-investments">
+                            <Link to="/location">
                                 <span>international investments</span>
                             </Link>
                         </div>
