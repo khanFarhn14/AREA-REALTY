@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import './App.scss';
 import Aos from "aos";
 import 'aos/dist/aos.css';
@@ -8,8 +10,6 @@ import Home from './View/Home/home';
 import Location from './View/Location/location';
 import Footer from './View/_Common/Footer';
 import Loader from './View/_Common/loader';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 export default function App() {
   useEffect(() => {

@@ -39,9 +39,7 @@ export default function KarjatPremiumSection() {
                         "River Views",
                         "Proximity to Mumbai",
                     ].map((feature, i) => (
-                        <span key={i} className="feature">
-                            {feature}
-                        </span>
+                        <span key={i} className="feature">{feature}</span>
                     ))}
                 </div>
 

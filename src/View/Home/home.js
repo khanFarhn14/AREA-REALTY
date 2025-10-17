@@ -124,12 +124,9 @@ export default function Home() {
                             {dubaiInvestmentList.map((item, index) => (
                                 <div className="dxb-testimonial-card" key={index}>
                                     <div className="dxb-testimonial">
-                                        <div className="dxb-testimonial-img">
-                                            {item?.img}
-                                        </div>
+                                        <div className="dxb-testimonial-img">{item?.img}</div>
                                         <div className="dxb-testimonial-content">
                                             <h5>{item?.name}</h5>
-
                                             <p>{item?.des}</p>
                                         </div>
                                     </div>

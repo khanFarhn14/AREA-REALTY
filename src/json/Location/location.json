@@ -1,0 +1,87 @@
+[
+  {
+    "id": "01",
+    "name": "Karjat",
+    "description": "The adventure capital nestled in pristine valleys, offering exclusive riverfront escapes and high-return investment opportunities.",
+    "info": [
+      { "title": "DISTANCE", "value": "1 hour from Mumbai" },
+      { "title": "INVESTMENT", "value": "₹3–8 Cr" },
+      { "title": "APPRECIATION", "value": "15–20% annually" },
+      { "title": "HIGHLIGHT", "value": "River rafting & trekking paradise" }
+    ],
+    "features": [
+      "Adventure Sports",
+      "Cool Climate",
+      "River Views",
+      "Proximity to Mumbai"
+    ]
+  },
+  {
+    "id": "02",
+    "name": "Lonavala",
+    "description": "Monsoon magic in the Western Ghats with stunning valley views",
+    "info": [
+      { "title": "DISTANCE", "value": "1.5 hours from Mumbai" },
+      { "title": "INVESTMENT", "value": "₹4–12 Cr" },
+      { "title": "APPRECIATION", "value": "12–18% annually" },
+      { "title": "HIGHLIGHT", "value": "Waterfalls & lake views" }
+    ],
+    "features": [
+      "Waterfalls",
+      "Lake Views",
+      "Heritage Sites",
+      "Hill Station Climate"
+    ]
+  },
+  {
+    "id": "03",
+    "name": "Alibaug",
+    "description": "Mumbai's exclusive coastal retreat with pristine beaches",
+    "info": [
+      { "title": "DISTANCE", "value": "2 hours from Mumbai" },
+      { "title": "INVESTMENT", "value": "₹8–25 Cr" },
+      { "title": "APPRECIATION", "value": "18–25% annually" },
+      { "title": "HIGHLIGHT", "value": "Private beach access" }
+    ],
+    "features": [
+      "Beach Access",
+      "Water Sports",
+      "Luxury Resorts",
+      "Premium Location"
+    ]
+  },
+  {
+    "id": "04",
+    "name": "Goa",
+    "description": "India's premier beach destination with Portuguese heritage",
+    "info": [
+      { "title": "DISTANCE", "value": "1 hour flight from Mumbai" },
+      { "title": "INVESTMENT", "value": "₹5–20 Cr" },
+      { "title": "APPRECIATION", "value": "20–30% annually" },
+      { "title": "HIGHLIGHT", "value": "Tropical paradise with global appeal" }
+    ],
+    "features": [
+      "Beachfront",
+      "Portuguese Heritage",
+      "Tropical Climate",
+      "International Appeal"
+    ]
+  },
+  {
+    "id": "05",
+    "name": "Khopoli",
+    "description": "Gateway to the Western Ghats with stunning waterfalls and scenic hill station charm",
+    "info": [
+      { "title": "DISTANCE", "value": "75 min from Mumbai" },
+      { "title": "INVESTMENT", "value": "₹2.5–6 Cr" },
+      { "title": "APPRECIATION", "value": "12–18% annually" },
+      { "title": "HIGHLIGHT", "value": "Waterfall views & nature trails" }
+    ],
+    "features": [
+      "Waterfall Views",
+      "Hill Station Climate",
+      "Nature Trails",
+      "Weekend Getaway"
+    ]
+  }
+]
