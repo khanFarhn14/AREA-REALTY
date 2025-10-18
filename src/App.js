@@ -10,6 +10,7 @@ import Home from './View/Home/home';
 import Location from './View/Location/location';
 import Footer from './View/_Common/Footer';
 import Loader from './View/_Common/loader';
+import DubaiExplore from './View/Investment/Dubai/dubai-explore';
 
 export default function App() {
   useEffect(() => {
@@ -35,6 +36,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/location" element={<Location />} />
+          <Route path="/dubai/explore" element={<DubaiExplore />} />
         </Routes>
       </div>
       <Footer />

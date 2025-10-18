@@ -2,12 +2,15 @@ import React from "react";
 import "./home.scss";
 import Header from "../_Common/header";
 import { Button, Card, Col, Container, Image, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import secondHomeList from "../../json/Home/second-home.json";
 import dubaiInvestmentList from "../../json/Home/dubai-investment.json";
 import Slider from "react-slick";
 
 export default function Home() {
+    const navigate = useNavigate();
+
+    // SECOND HOME IMG PATH
     const secondHomeImgPath = {
         "img_1.jpg": require("../../assets/img/home/second-home/img_1.jpg"),
         "img_2.jpg": require("../../assets/img/home/second-home/img_2.jpg"),
@@ -17,11 +20,12 @@ export default function Home() {
         "img_6.jpg": require("../../assets/img/home/second-home/img_6.jpg"),
     }
 
+    // DUBAI INVESTMENT SLIDE
     const dubaiInvestmentSlide = {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,  // Show 4 slides
+        slidesToShow: 3,
         slidesToScroll: 3,
         swipe: true,
         autoplay: false,
@@ -42,6 +46,16 @@ export default function Home() {
                 settings: { slidesToShow: 1, slidesToScroll: 1 },
             },
         ],
+    };
+
+    // GO LOCATION PAGE
+    const goLocationPage = () => {
+        navigate('/location');
+    };
+
+    // GO DUBAI EXPLORE PAGE
+    const goDubaiExplorePage = () => {
+        navigate('/dubai/explore');
     };
 
     return (
@@ -104,8 +118,8 @@ export default function Home() {
                             ))}
                         </Row>
 
-                        <div className="text-center mt-4">
-                            <Button className="common-btn" type="button">Explore More</Button>
+                        <div className="text-center mt-5">
+                            <Button className="common-btn" onClick={goLocationPage} type="button">Explore More</Button>
                         </div>
                     </div>
                 </Container>
@@ -133,6 +147,10 @@ export default function Home() {
                                 </div>
                             ))}
                         </Slider>
+
+                        <div className="text-center mt-5">
+                            <Button className="common-btn" onClick={goDubaiExplorePage} type="button">Explore More</Button>
+                        </div>
                     </div>
                 </Container>
             </section>

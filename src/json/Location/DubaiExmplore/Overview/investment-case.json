@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Tax & Business Environment",
+        "business_environment": [
+            {
+                "status": "success",
+                "name": "0% personal income tax and capital gains tax"
+            },
+            {
+                "status": "primary",
+                "name": "Golden Visa program for investors AED 2M+"
+            },
+            {
+                "status": "warning",
+                "name": "RERA regulatory framework for investor protection"
+            }
+        ]
+    },
+    {
+        "name": "Infrastructure & Connectivity",
+        "business_environment": [
+            {
+                "status": "primary",
+                "name": "Dubai International Airport - world's busiest for international passengers"
+            },
+            {
+                "status": "success",
+                "name": "Al Maktoum Airport expansion targeting 200M passengers by 2030"
+            },
+            {
+                "status": "primary",
+                "name": "Blue Line Metro extension connecting key business districts"
+            }
+        ]
+    },
+    {
+        "name": "Market Dynamics & Supply",
+        "business_environment": [
+            {
+                "status": "info",
+                "name": "Limited premium waterfront supply in established areas"
+            },
+            {
+                "status": "primary",
+                "name": "Dubai 2040 Master Plan ensuring sustainable development"
+            },
+            {
+                "status": "success",
+                "name": "Strong rental yields 5-8% across prime locations"
+            }
+        ]
+    }
+]

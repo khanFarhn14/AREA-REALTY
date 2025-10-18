@@ -40,6 +40,7 @@ body {
   }
 
 
+  // BTN CLASS
   .btn-class {
     color: #ffffff;
     border-radius: 30px;
@@ -48,10 +49,35 @@ body {
     background-color: #33944E;
   }
 
+  // FORM CONTROL
   .form-control {
     &:focus {
       border-color: #2e994c;
     }
+  }
+
+  // CARD ONE
+  .card-one {
+    border-width: 0;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px rgba(204, 210, 218, .07),
+      0 2px 4px rgba(204, 210, 218, .07),
+      0 4px 8px rgba(204, 210, 218, .07),
+      0 8px 16px rgba(204, 210, 218, .07),
+      0 16px 32px rgba(204, 210, 218, .07),
+      0 32px 64px rgba(204, 210, 218, .07);
+
+    .card-header {
+      background-color: #ffffff;
+      padding: 15px;
+    }
+  }
+
+  .product-wrapper {
+    border-radius: 4px;
+    background-color: #f8f9fc;
+    overflow: auto;
   }
 
   // PAGE TITLE
