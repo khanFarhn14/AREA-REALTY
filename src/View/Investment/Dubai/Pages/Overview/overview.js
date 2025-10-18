@@ -1,9 +1,10 @@
 import React from "react";
+import "./overview.scss"
 import { Alert, Badge, Button, Card, Col, Row, Table } from "react-bootstrap";
-import strategicAdvantages from "../../../../json/Location/DubaiExmplore/Overview/strategic-advantages.json";
-import growthIndicators from "../../../../json/Location/DubaiExmplore/Overview/growth-indicators.json";
-import keyInvestmentFactors from "../../../../json/Location/DubaiExmplore/Overview/key-investment-factors.json";
-import investmentCase from "../../../../json/Location/DubaiExmplore/Overview/investment-case.json";
+import strategicAdvantages from "../../../../../json/Location/DubaiExmplore/Overview/strategic-advantages.json";
+import growthIndicators from "../../../../../json/Location/DubaiExmplore/Overview/growth-indicators.json";
+import keyInvestmentFactors from "../../../../../json/Location/DubaiExmplore/Overview/key-investment-factors.json";
+import investmentCase from "../../../../../json/Location/DubaiExmplore/Overview/investment-case.json";
 
 export default function OverviewView() {
     return (
@@ -35,7 +36,6 @@ export default function OverviewView() {
                         </Table>
                     </Card.Body>
                 </Card>
-
 
                 {/* INFRASTRUCTURE & GLOBAL CONNECTIVITY */}
                 <Card className="card-one h-auto mb-3">

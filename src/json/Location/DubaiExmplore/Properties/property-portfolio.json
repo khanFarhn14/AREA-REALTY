@@ -1,0 +1,92 @@
+[
+    {
+        "available": "35",
+        "name": "Luxury Apartments",
+        "price": "AED 800K - 5M",
+        "price_des": "Starting Price Range",
+        "bedrooms": "1-4",
+        "bathrooms": "1-5",
+        "square_fit": "800+",
+        "list": [
+            "Burj Khalifa Views",
+            "Premium Amenities",
+            "Metro Access",
+            "High Rental Demand"
+        ]
+    },
+    {
+        "available": "18",
+        "name": "Premium Villas",
+        "price": "AED 3M - 20M",
+        "price_des": "Starting Price Range",
+        "bedrooms": "1-4",
+        "bathrooms": "1-5",
+        "square_fit": "800+",
+        "list": [
+            "Beachfront Access",
+            "Private Pools",
+            "Golf Course Views",
+            "Investment Grade"
+        ]
+    },
+    {
+        "available": "25",
+        "name": "Commercial Spaces",
+        "price": "AED 1M - 10M",
+        "price_des": "Starting Price Range",
+        "bedrooms": "1-4",
+        "bathrooms": "1-5",
+        "square_fit": "800+",
+        "list": [
+            "Business District",
+            "Corporate Tenants",
+            "Modern Infrastructure",
+            "Stable Returns"
+        ]
+    },
+    {
+        "available": "12",
+        "name": "Waterfront Estates",
+        "price": "AED 5M - 50M",
+        "price_des": "Starting Price Range",
+        "bedrooms": "1-4",
+        "bathrooms": "1-5",
+        "square_fit": "800+",
+        "list": [
+            "Private Beach",
+            "Marina Access",
+            "Luxury Amenities",
+            "Exclusive Location"
+        ]
+    },
+    {
+        "available": "8",
+        "name": "Investment Funds",
+        "price": "AED 500K - 2M",
+        "price_des": "Starting Price Range",
+        "bedrooms": "1-4",
+        "bathrooms": "1-5",
+        "square_fit": "800+",
+        "list": [
+            "Diversified Portfolio",
+            "Professional Management",
+            "High Liquidity",
+            "Stable Returns"
+        ]
+    },
+    {
+        "available": "6",
+        "name": "Investment Funds",
+        "price": "AED 2M - 15M",
+        "price_des": "Starting Price Range",
+        "bedrooms": "1-4",
+        "bathrooms": "1-5",
+        "square_fit": "800+",
+        "list": [
+            "Pre-Launch Pricing",
+            "Capital Appreciation",
+            "Payment Plans",
+            "Developer Guarantee"
+        ]
+    }
+]
