@@ -1,5 +1,5 @@
 import React from "react";
-import { Alert, Badge, Card, Col, Row, Table } from "react-bootstrap";
+import { Alert, Badge, Button, Card, Col, Row, Table } from "react-bootstrap";
 import strategicAdvantages from "../../../../json/Location/DubaiExmplore/Overview/strategic-advantages.json";
 import growthIndicators from "../../../../json/Location/DubaiExmplore/Overview/growth-indicators.json";
 import keyInvestmentFactors from "../../../../json/Location/DubaiExmplore/Overview/key-investment-factors.json";
@@ -179,6 +179,68 @@ export default function OverviewView() {
                                 </div>
                             </div>
                         ))}
+                    </Card.Body>
+                </Card>
+
+                {/* ENVIREMENT */}
+                <Row className="g-3 mb-3">
+                    {[
+                        {
+                            "icon": "ri-shield-star-line",
+                            "name": "Tax-Free Environment",
+                            "des": "Zero personal income tax, capital gains tax, and property tax for investors"
+                        },
+                        {
+                            "icon": "ri-star-line",
+                            "name": "Golden Visa Program",
+                            "des": "10-year residency visa for property investors with investment of AED 2M+"
+                        },
+                        {
+                            "icon": "ri-plane-line",
+                            "name": "Global Connectivity",
+                            "des": "Dubai International Airport connects to 260+ destinations worldwide"
+                        },
+                        {
+                            "icon": "ri-global-line",
+                            "name": "Business Hub",
+                            "des": "Strategic location between Europe, Asia, and Africa for business"
+                        }
+                    ].map((item, index) => (
+                        <Col md={6} key={index}>
+                            <Card className="card-one h-auto">
+                                <div className="p-3">
+                                    <div className="environment-wrapper">
+                                        <div>
+                                            <div className="environment-icon">
+                                                <i className={item?.icon}></i>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h3 className="fs-18 mb-1">{item?.name}</h3>
+                                            <p className="fs-14">{item?.des}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Card>
+                        </Col>
+                    ))}
+                </Row>
+
+                {/* READY TO INVEST IN DUBAI */}
+                <Card className="card-one h-auto">
+                    <Card.Body>
+                        <h3 className="fs-14">Ready to Invest in Dubai?</h3>
+                        <p className="fs-12">Speak with our Dubai investment specialists today</p>
+                        <div className="d-flex gap-2 mt-3">
+                            <Button variant="primary" className="fs-14" type="buttobn">
+                                <i className="ri-phone-line me-1 align-middle"></i>
+                                <span className="align-middle">Call Now</span>
+                            </Button>
+                            <Button variant="outline-secondary" className="fs-14" type="buttobn">
+                                <i className="ri-calendar-line me-1 align-middle"></i>
+                                <span className="align-middle">Schedule Meeting</span>
+                            </Button>
+                        </div>
                     </Card.Body>
                 </Card>
             </div>
