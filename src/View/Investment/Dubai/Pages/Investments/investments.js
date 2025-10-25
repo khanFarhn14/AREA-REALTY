@@ -3,6 +3,8 @@ import "./investments.scss";
 import { Col, Row } from "react-bootstrap";
 
 export default function Investments() {
+
+    // INVESTMENT DATA ARRAY LIST
     const investmentData = [
         {
             type: "Conservative",
@@ -36,6 +38,7 @@ export default function Investments() {
         },
     ];
 
+    // INVESTOR PROFILES ARRAY LIST
     const investorProfiles = [
         {
             title: "International Investor",
@@ -60,6 +63,7 @@ export default function Investments() {
         }
     ];
 
+    // RISK MANAGEMENT DATA ARRAY LIST
     const riskManagementData = {
         title: "Risk Management & Mitigation",
         sections: [
@@ -106,6 +110,7 @@ export default function Investments() {
         ]
     };
 
+    // INVESTMENT TIMELINE ARRAY LIST
     const investmentTimeline = {
         title: "Investment Timeline & Process",
         steps: [
@@ -136,9 +141,9 @@ export default function Investments() {
         <React.Fragment>
 
             {/* INVESTMENT CARD */}
-            <div class="investment-card">
-                <h3 class="title">Investment Analysis & Projections</h3>
-                <p class="description">
+            <div className="investment-card">
+                <h3 className="title">Investment Analysis & Projections</h3>
+                <p className="description">
                     Comprehensive investment analysis for Dubai real estate market with ROI projections,
                     risk assessment, and strategic positioning for different investor profiles.
                 </p>

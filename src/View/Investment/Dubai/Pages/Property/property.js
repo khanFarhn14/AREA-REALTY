@@ -10,7 +10,7 @@ export default function PropertyView() {
             <div className="property-wrapper">
 
                 {/* PROPERTY PORTFOLIO */}
-                <div className="property-portfolio-wrapper mb-3">
+                <div className="property-portfolio-wrapper">
                     <Row className="g-3">
                         {propertyPortfolioList.map((item, index) => (
                             <Col md={4} sm={12} key={index}>
@@ -56,7 +56,7 @@ export default function PropertyView() {
                 </div>
 
                 {/* MARKET STATISTICS */}
-                <Card className="card-one h-auto mb-3">
+                <Card className="card-one h-auto market-statistics">
                     <Card.Header>
                         <Card.Title className="fs-14 mb-0">Market Statistics</Card.Title>
                     </Card.Header>

@@ -11,7 +11,7 @@ export default function OverviewView() {
         <React.Fragment>
             <div className="overview-wrapper">
                 {/* QUICK FACTS & METRICS */}
-                <Card className="card-one h-auto mb-3">
+                <Card className="card-one h-auto overview-view-common">
                     <Card.Header>
                         <Card.Title className="fs-14 mb-0">Quick Facts & Metrics</Card.Title>
                     </Card.Header>
@@ -38,7 +38,7 @@ export default function OverviewView() {
                 </Card>
 
                 {/* INFRASTRUCTURE & GLOBAL CONNECTIVITY */}
-                <Card className="card-one h-auto mb-3">
+                <Card className="card-one h-auto overview-view-common">
                     <Card.Header>
                         <Card.Title className="fs-14 mb-0">Infrastructure & Global Connectivity</Card.Title>
                     </Card.Header>
@@ -93,7 +93,7 @@ export default function OverviewView() {
                 </Card>
 
                 {/* MARKET DESCRIPTION */}
-                <Card className="card-one h-auto mb-3">
+                <Card className="card-one h-auto overview-view-common">
                     <Card.Body>
                         <h3 className="fs-16 mb-2">Market Description</h3>
                         <p className="fs-12">Dubai has established itself as the premier real estate investment destination in the Middle East, offering unparalleled opportunities for
@@ -105,7 +105,7 @@ export default function OverviewView() {
                 </Card>
 
                 {/* STRATEGIC ADVANTAGE */}
-                <Card className="card-one h-auto mb-3">
+                <Card className="card-one h-auto overview-view-common">
                     <Card.Header>
                         <Card.Title className="fs-14 mb-0">Strategic Advantages</Card.Title>
                     </Card.Header>
@@ -124,7 +124,7 @@ export default function OverviewView() {
                 </Card>
 
                 {/* GROWTH INDICATORS */}
-                <Card className="card-one h-auto mb-3">
+                <Card className="card-one h-auto overview-view-common">
                     <Card.Header>
                         <Card.Title className="fs-14 mb-0">Growth Indicators</Card.Title>
                     </Card.Header>
@@ -143,7 +143,7 @@ export default function OverviewView() {
                 </Card>
 
                 {/* KEY INVESTMENT FACTORS */}
-                <Card className="card-one h-auto mb-3">
+                <Card className="card-one h-auto overview-view-common">
                     <Card.Header>
                         <Card.Title className="fs-14 mb-0">Key Investment Factors</Card.Title>
                     </Card.Header>
@@ -161,7 +161,7 @@ export default function OverviewView() {
                 </Card>
 
                 {/* WHY DUBAI - INVESTMENT CASE */}
-                <Card className="card-one h-auto mb-3">
+                <Card className="card-one h-auto overview-view-common">
                     <Card.Header>
                         <Card.Title className="fs-14 mb-0">Why Dubai - The Investment Case</Card.Title>
                     </Card.Header>
@@ -183,7 +183,7 @@ export default function OverviewView() {
                 </Card>
 
                 {/* ENVIREMENT */}
-                <Row className="g-3 mb-3">
+                <Row className="g-3 overview-view-common">
                     {[
                         {
                             "icon": "ri-shield-star-line",

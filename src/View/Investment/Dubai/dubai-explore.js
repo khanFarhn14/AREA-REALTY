@@ -5,6 +5,7 @@ import { Container, Nav, Tab } from "react-bootstrap";
 import OverviewView from "./Pages/Overview/overview";
 import PropertyView from "./Pages/Property/property";
 import Investments from "./Pages/Investments/investments";
+import Location from "./Pages/Location/location";
 
 export default function DubaiExplore() {
     return (
@@ -50,7 +51,9 @@ export default function DubaiExplore() {
                                     <Tab.Pane eventKey="investments_tab">
                                         <Investments />
                                     </Tab.Pane>
-                                    <Tab.Pane eventKey="location_tab">Location</Tab.Pane>
+                                    <Tab.Pane eventKey="location_tab">
+                                        <Location />
+                                    </Tab.Pane>
                                 </Tab.Content>
                             </div>
                         </div>
