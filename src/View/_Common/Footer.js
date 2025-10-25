@@ -21,7 +21,7 @@ export default function Footer() {
                                 <h5 className="text-uppercase">Contact</h5>
                                 <ul>
                                     <li><Nav.Link as="a" href="tel:+917304012347">+91 7304012347</Nav.Link></li>
-                                    <li><Nav.Link as={Link}>info@scrapsevak.com</Nav.Link></li>
+                                    <li><Nav.Link as={Link}>info@areareality.com</Nav.Link></li>
                                 </ul>
                             </Col>
                             <Col md={4} className="footer-col">

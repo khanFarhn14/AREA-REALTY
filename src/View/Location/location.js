@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../_Common/header";
 import { Container } from "react-bootstrap";
 import bgImage from "../../assets/img/home-background.png"
 import locationData from "../../json/Location/location.json";
@@ -35,7 +34,6 @@ export default function Location() {
     };
     return (
         <React.Fragment>
-            <Header />
             <div className="page-title" style={{ backgroundImage: `url(${bgImage})` }}>
                 <Container>
                     <div className="page-title-content">

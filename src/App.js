@@ -13,16 +13,19 @@ import Loader from './View/_Common/loader';
 import DubaiExplore from './View/Investment/Dubai/dubai-explore';
 
 export default function App() {
+    const location = useLocation();
+  const [loading, setLoading] = useState(false);
+
+  // ✅ Initialize AOS only once when the app loads
   useEffect(() => {
     Aos.init({
       duration: 1000,
-      once: false,
+      once: false, // animations trigger every scroll, not just once
     });
   }, []);
 
-  const location = useLocation();
-  const [loading, setLoading] = useState(false);
-   useEffect(() => {
+  // 🔄 Handle route-based loading animation
+  useEffect(() => {
     setLoading(true);
     const timer = setTimeout(() => setLoading(false), 1000);
     return () => clearTimeout(timer);

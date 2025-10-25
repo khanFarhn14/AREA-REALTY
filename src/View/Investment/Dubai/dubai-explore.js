@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../../_Common/header";
 import "./dubai-explore.scss";
 import bgImage from "../../../assets/img/home-background.png"
 import { Container, Nav, Tab } from "react-bootstrap";
@@ -9,7 +8,6 @@ import PropertyView from "./Pages/Property/property";
 export default function DubaiExplore() {
     return (
         <React.Fragment>
-            <Header />
             <div className="page-title" style={{ backgroundImage: `url(${bgImage})` }}>
                 <Container>
                     <div className="page-title-content">

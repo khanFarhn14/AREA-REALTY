@@ -1,28 +1,35 @@
 header {
-     .contact-no {
-        position: absolute;
-        top: 1rem;
-        right: 3rem;
-        z-index: 3;
+    position: absolute;
+    top: 1rem;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    padding: 10px 50px 10px 10px;
+    text-align: right;
 
-        a {
-            font-size: 18px;
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            color: #d3d3d3;
+    a {
+        font-size: 18px;
+        color: #d3d3d3;
+        display: inline-block;
 
-            i {
-                font-size: 24px;
-            }
+        i {
+            font-size: 24px;
+        }
 
-            &:hover {
-                color: #fff;
+        &:hover {
+            color: #fff;
 
-                span {
-                    text-decoration: underline;
-                }
+            span {
+                text-decoration: underline;
             }
         }
+    }
+}
+
+// MOBILE VIEW MEDIA QUERY
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px;
+        text-align: center;
     }
 }

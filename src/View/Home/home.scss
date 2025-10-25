@@ -30,60 +30,80 @@
         }
 
         p {
+            color: rgb(226, 232, 240);
             font-size: 18px;
             margin-bottom: 25px;
         }
 
-        .home-section-content-link {
-            display: flex;
-            gap: 2rem;
-            align-items: center;
-            justify-content: center;
+    }
 
-            a {
-                border: 1px solid #038f9d;
-                box-shadow: 0 0 5px #038f9d, 0 0 5px #038f9d inset;
-                color: #ffffff;
-                background: transparent;
-                z-index: 2;
-                transition: all 0.3s ease;
-                overflow: hidden;
-                position: relative;
-                padding: 6px 12px;
+    .home-section-content-link {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 4rem;
+        left: 0;
+        right: 0;
+        z-index: 4;
+        padding: 40px 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        text-align: center;
 
-                &:after {
-                    position: absolute;
-                    content: " ";
-                    top: 0;
-                    left: 0;
-                    z-index: -1;
-                    width: 100%;
-                    height: 100%;
-                    background: #038f9d;
-                    box-shadow: 0 0 5px #038f9d;
-                    transition: all 0.3s ease;
-                    transform: scale(0);
-                    -webkit-transform: scale(0);
-                }
-
-                &:hover {
-                    color: #fff;
-
-                    &:after {
-                        transform: scale(1);
-                        -webkit-transform: scale(1);
-                    }
-                }
-            }
+        h4 {
+            color: rgb(226, 232, 240);
+            font-size: 14px;
+            margin-bottom: 10px;
+            letter-spacing: .01em;
         }
 
+        a {
+            padding: 6px 12px;
+            font-size: 14px;
+            display: inline-block;
+            color: rgb(226, 232, 240);
+            transition: all 0.1s linear;
+
+            &:hover {
+                color: #fff;
+                transform: scale(1.2);
+                -webkit-transform: scale(1.2);
+            }
+        }
     }
 }
 
 // SECOND HOME LUXURY LIVING
 .second-home-section {
     padding: 8rem 0;
+    position: relative;
     background-color: #fff;
+
+    .second-home-content {
+        p {
+            font-size: 22px;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        h4 {
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .second-home-content-info {
+            h6 {
+                font-size: 14px;
+                text-decoration: underline;
+                text-transform: uppercase;
+                text-align: center;
+            }
+        }
+    }
 
     .second-home-card {
         border: 1px solid #eee;
@@ -129,61 +149,83 @@
 // DXB - DUBAI INVESTMENTS SECTION
 .dxb-investments-section {
     padding: 8rem 0;
+    position: relative;
     background-color: #f8f9fa;
 
-    .dxb-testimonial {
-        .dxb-testimonial-img {
-            width: 90px;
-            height: 90px;
-            border-radius: 50%;
-            overflow: hidden;
-            font-size: 36px;
-            display: flex;
-            line-height: normal;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1.5rem;
-            background-color: #efefef;
-            border: 2px solid transparent;
-            transition: .3s all ease;
-            -webkit-transition: .3s all ease;
+    .dxb-investments-content {
+        p {
+            font-size: 22px;
+            text-align: center;
+            margin-bottom: 2rem;
         }
 
-        .dxb-testimonial-content {
-            padding-right: 50px;
+        h4 {
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
 
-            h5 {
-                font-size: 1.25rem;
-                margin-bottom: 1rem;
-            }
-
-            p {
+        .dxb-investments-content-info {
+            h6 {
                 font-size: 14px;
-            }
-        }
-
-        &:hover {
-            .dxb-testimonial-img {
-                border: 2px solid #00204a;
+                text-decoration: underline;
+                text-transform: uppercase;
+                text-align: center;
             }
         }
     }
 
-    .slide-item {
-        padding: 0 10px;
-        /* 10px gap on left & right */
+
+}
+
+.second-content-footer {
+    text-align: center;
+    overflow: hidden;
+    margin-top: 5rem;
+
+    h4 {
+        font-size: 16px;
+        position: relative;
+        margin-bottom: 2rem;
+
+        &::after {
+            content: "";
+            width: 4rem;
+            height: 2px;
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            background-color: #1f5dff;
+        }
     }
 
-    .slick-list {
-        margin: 0 -10px;
-        /* cancel out padding so slides align perfectly */
+    .content-footer-link {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        a {
+            font-size: 16px;
+            color: #606060;
+
+            &:hover {
+                color: #000;
+                text-decoration: underline;
+            }
+        }
     }
 }
 
 // MOBILE VIEW MEDIA QUERY
 @media screen and (max-width: 480px) {
     .home-section {
-        height: 62vh;
+        height: 100vh;
+        display: block;
+        padding-top: 12rem;
 
         .home-section-content {
             h1 {
@@ -192,6 +234,71 @@
 
             p {
                 font-size: 16px;
+            }
+        }
+
+        .home-section-content-link {
+            display: block;
+
+            .content-link-box {
+                margin-bottom: 20px;
+
+                h4 {
+                    margin-bottom: 0;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    // 
+    .second-home-section {
+        .second-home-content {
+            p {
+                font-size: 14px;
+            }
+
+            h4 {
+                margin-bottom: 3rem;
+            }
+
+            .second-home-content-info h6 {
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+
+    // 
+    .dxb-investments-section {
+        .dxb-investments-content {
+            p {
+                font-size: 14px;
+            }
+
+            h4 {
+                margin-bottom: 3rem;
+            }
+
+            .dxb-investments-content-info {
+                h6 {
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+            }
+        }
+    }
+
+    // 
+    .second-content-footer {
+        .content-footer-link {
+            gap: 10px;
+
+            a {
+                font-size: 12px;
             }
         }
     }

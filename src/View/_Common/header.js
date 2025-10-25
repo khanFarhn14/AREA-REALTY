@@ -6,9 +6,7 @@ export default function Header() {
     return (
         <React.Fragment>
             <header>
-                <div className="contact-no">
-                    <Link to="tel:+919833141311"><i className="ri-phone-line"></i> <span>+91 98331 41311</span></Link>
-                </div>
+                <Link to="tel:+919833141311"><i className="ri-phone-line align-middle"></i> <span className="align-middle">+91 98331 41311</span></Link>
             </header>
         </React.Fragment>
     )
