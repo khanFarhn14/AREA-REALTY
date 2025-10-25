@@ -16,7 +16,7 @@ export default function OverviewView() {
                         <Card.Title className="fs-14 mb-0">Quick Facts & Metrics</Card.Title>
                     </Card.Header>
                     <Card.Body>
-                        <Table className="table w-100">
+                        <Table className="table w-100" responsive>
                             <thead>
                                 <tr>
                                     <th>Tax Rate:</th>
@@ -43,7 +43,7 @@ export default function OverviewView() {
                         <Card.Title className="fs-14 mb-0">Infrastructure & Global Connectivity</Card.Title>
                     </Card.Header>
                     <Card.Body>
-                        <Table className="table w-100">
+                        <Table className="table w-100" responsive>
                             <thead>
                                 <tr>
                                     <th>Current Status</th>

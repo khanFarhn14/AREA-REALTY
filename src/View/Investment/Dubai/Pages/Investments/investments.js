@@ -152,7 +152,7 @@ export default function Investments() {
             {/* INVESTMENT HORIZON */}
             <div className="investment-horizon">
                 <h3>5-Year Investment Horizon</h3>
-                <Row>
+                <Row className="g-3">
                     {investmentData.map((plan, i) => (
                         <Col md={4} key={i}>
                             <div className="cards">
