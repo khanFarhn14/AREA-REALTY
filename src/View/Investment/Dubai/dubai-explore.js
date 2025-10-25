@@ -4,6 +4,7 @@ import bgImage from "../../../assets/img/home-background.png"
 import { Container, Nav, Tab } from "react-bootstrap";
 import OverviewView from "./Pages/Overview/overview";
 import PropertyView from "./Pages/Property/property";
+import Investments from "./Pages/Investments/investments";
 
 export default function DubaiExplore() {
     return (
@@ -46,7 +47,9 @@ export default function DubaiExplore() {
                                     <Tab.Pane eventKey="properties_tab">
                                         <PropertyView />
                                     </Tab.Pane>
-                                    <Tab.Pane eventKey="investments_tab">Investments</Tab.Pane>
+                                    <Tab.Pane eventKey="investments_tab">
+                                        <Investments />
+                                    </Tab.Pane>
                                     <Tab.Pane eventKey="location_tab">Location</Tab.Pane>
                                 </Tab.Content>
                             </div>
