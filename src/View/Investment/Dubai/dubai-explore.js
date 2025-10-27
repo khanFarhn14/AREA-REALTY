@@ -1,6 +1,6 @@
 import React from "react";
 import "./dubai-explore.scss";
-import bgImage from "../../../assets/img/home-background.png"
+import bgImage from "../../../assets/img/location/dubai-explore-heading.png"
 import { Container, Nav, Tab } from "react-bootstrap";
 import OverviewView from "./Pages/Overview/overview";
 import PropertyView from "./Pages/Property/property";

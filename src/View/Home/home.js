@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./home.scss";
 import Header from "../_Common/header";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 export default function Home() {
     const navigate = useNavigate();
@@ -16,6 +16,12 @@ export default function Home() {
     const goDubaiExplorePage = () => {
         navigate('/dubai/explore');
     };
+
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }, [pathname]);
 
     return (
         <React.Fragment>
@@ -171,16 +177,16 @@ export default function Home() {
                     <div className="second-content-footer">
                         <h4>Locations:</h4>
                         <div className="content-footer-link">
-                            <Link to="/downtown-dubai">
+                            <Link to="/dubai/explore" onClick={() => window.scrollTo(0, 0)}>
                                 <span className="align-middle">Downtown Dubai</span>
                             </Link>
-                            <Link to="/dubai-marina">
+                            <Link to="/dubai/explore" onClick={() => window.scrollTo(0, 0)}>
                                 <span className="align-middle">Dubai Marina</span>
                             </Link>
-                            <Link to="/palm-jumeirah">
+                            <Link to="/dubai/explore" onClick={() => window.scrollTo(0, 0)}>
                                 <span className="align-middle">Palm Jumeirah</span>
                             </Link>
-                            <Link to="/business-bay">
+                            <Link to="/dubai/explore" onClick={() => window.scrollTo(0, 0)}>
                                 <span className="align-middle">Business Bay</span>
                             </Link>
                         </div>
