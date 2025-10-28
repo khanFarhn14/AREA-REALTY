@@ -1,0 +1,45 @@
+.investment-explore-section {
+    padding: 8rem 0;
+
+    .investment-explore-tabs {
+        .investment-tabs-header {
+            .nav {
+                justify-content: center;
+                gap: 20px;
+
+                .nav-item {
+                    a {
+                        padding: 10px 45px;
+                        border: 1px solid #ddd;
+                        color: #333;
+                        border-radius: 0;
+                        position: relative;
+                        font-size: 14px;
+                        text-transform: uppercase;
+
+                        &.active {
+                            border: 1px solid #141414;
+                            border-radius: 0;
+                            background-color: #141414;
+                            color: #fff;
+
+                            &::after {
+                                content: "";
+                                position: absolute;
+                                top: 100%;
+                                left: 42%;
+                                border-top: 15px solid #141414;
+                                border-left: 15px solid transparent;
+                                border-right: 15px solid transparent;
+                                -webkit-transition: all 0.4s ease 0s;
+                                -moz-transition: all 0.4s ease 0s;
+                                -o-transition: all 0.4s ease 0s;
+                                transition: all 0.4s ease 0s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

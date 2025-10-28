@@ -1,0 +1,219 @@
+.property-wrapper {
+    // PROPERTY PORTFOLIO WRAPPER
+    .property-portfolio-wrapper {
+        margin-bottom: 24px;
+
+        .property-card {
+            background: #fff;
+            border-radius: 18px;
+            padding: 1.5rem;
+            box-shadow: 0 1px 2px rgba(204, 210, 218, 0.07),
+                0 2px 4px rgba(204, 210, 218, 0.07),
+                0 4px 8px rgba(204, 210, 218, 0.07),
+                0 8px 16px rgba(204, 210, 218, 0.07),
+                0 16px 32px rgba(204, 210, 218, 0.07),
+                0 32px 64px rgba(204, 210, 218, 0.07);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(230, 230, 230, 0.8);
+            position: relative;
+            overflow: hidden;
+
+            &:hover {
+                transform: translateY(-6px);
+                box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+            }
+
+            .property-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 0.8rem;
+
+                .availability {
+                    background: rgba(64, 111, 255, 0.1);
+                    color: #406fff;
+                    font-weight: 600;
+                    font-size: 0.85rem;
+                    padding: 4px 10px;
+                    border-radius: 6px;
+                }
+            }
+
+            .property-body {
+                .property-title {
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    color: #1d1d1d;
+                    margin-bottom: 0.4rem;
+                }
+
+                .property-price {
+                    font-size: 1.4rem;
+                    font-weight: 700;
+                    color: #1e5eff;
+                    margin-bottom: 0.2rem;
+                }
+
+                .price-range {
+                    color: #777;
+                    font-size: 0.85rem;
+                    margin-bottom: 1rem;
+                }
+
+                .property-specs {
+                    display: flex;
+                    justify-content: space-between;
+                    text-align: center;
+                    background: #f9fbff;
+                    border: 1px solid #edf1ff;
+                    border-radius: 10px;
+                    padding: 0.8rem 1rem;
+                    margin-bottom: 1rem;
+
+                    .spec {
+                        flex: 1;
+
+                        h4 {
+                            font-size: 1.1rem;
+                            font-weight: 700;
+                            color: #222;
+                        }
+
+                        p {
+                            font-size: 0.8rem;
+                            color: #777;
+                        }
+                    }
+                }
+
+                .property-features {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0 0 1rem 0;
+
+                    li {
+                        display: flex;
+                        align-items: center;
+                        font-size: 0.9rem;
+                        color: #555;
+                        margin-bottom: 0.4rem;
+
+                        i {
+                            color: #1e5eff;
+                            margin-right: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // MARKET STATISTICS
+    .market-statistics {
+        margin-bottom: 24px;
+
+        // TABLE
+        table {
+
+            thead,
+            tbody {
+                tr {
+
+                    th,
+                    td {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    // PROPPERTY INFO CARD
+    .property-info-card {
+        background: #fff;
+        border-radius: 10px;
+        padding: 18px 20px;
+        box-shadow: 0 1px 2px rgba(204, 210, 218, 0.07),
+            0 2px 4px rgba(204, 210, 218, 0.07),
+            0 4px 8px rgba(204, 210, 218, 0.07),
+            0 8px 16px rgba(204, 210, 218, 0.07),
+            0 16px 32px rgba(204, 210, 218, 0.07),
+            0 32px 64px rgba(204, 210, 218, 0.07);
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            h3 {
+                font-size: 1.05rem;
+                font-weight: 600;
+                color: #222;
+                margin: 0;
+            }
+
+            .tag {
+                background: #f5f6fa;
+                color: #555;
+                font-size: 0.75rem;
+                font-weight: 500;
+                border-radius: 6px;
+                padding: 3px 8px;
+            }
+        }
+
+        .subtitle {
+            color: #555;
+            font-size: 0.88rem;
+            margin: 6px 0 14px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 12px;
+
+            .item {
+                .label {
+                    color: #777;
+                    font-size: 0.8rem;
+                    margin-bottom: 3px;
+                }
+
+                .value {
+                    font-weight: 600;
+                    color: #222;
+                    font-size: 0.95rem;
+
+                    &.yield {
+                        color: #009b56; // green tone for yield
+                    }
+                }
+            }
+        }
+
+        .features {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                position: relative;
+                padding-left: 14px;
+                color: rgb(34, 34, 34);
+                ;
+                font-size: 0.88rem;
+                line-height: 1.6;
+
+                &::before {
+                    content: "•";
+                    color: #2b5eff;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+            }
+        }
+    }
+
+}

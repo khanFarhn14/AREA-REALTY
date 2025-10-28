@@ -1,0 +1,45 @@
+[
+    {
+        "category": "Transport & Connectivity",
+        "items": [
+            {
+                "name": "MTHL (Atal Setu) operational since Jan 2024",
+                "tag": "green"
+            },
+            {
+                "name": "Panvel-Karjat rail corridor ~67-70% complete",
+                "tag": "blue"
+            },
+            {
+                "name": "Virar-Alibaug MMC approved for 2026+ rollout",
+                "tag": "orange"
+            }
+        ]
+    },
+    {
+        "category": "Aviation Uplift",
+        "items": [
+            {
+                "name": "NMIA Terminal-1 opening targeted Oct 2025",
+                "tag": "blue"
+            },
+            {
+                "name": "Airport’s eastern influence arc positioning",
+                "tag": "gray"
+            }
+        ]
+    },
+    {
+        "category": "Land Supply & Planning",
+        "items": [
+            {
+                "name": "Higher built-up expansion in MMR periphery",
+                "tag": "purple"
+            },
+            {
+                "name": "NAINA planning ecosystem integration",
+                "tag": "blue"
+            }
+        ]
+    }
+]

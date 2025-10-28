@@ -10,6 +10,7 @@ import Home from './View/Home/home';
 import Location from './View/Location/location';
 import Footer from './View/_Common/Footer';
 import Loader from './View/_Common/loader';
+import IndiaExplore from './View/Investment/India/india-explore';
 import DubaiExplore from './View/Investment/Dubai/dubai-explore';
 
 export default function App() {
@@ -39,6 +40,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/location" element={<Location />} />
+          <Route path="/india/explore/:location" element={<IndiaExplore />} />
           <Route path="/dubai/explore" element={<DubaiExplore />} />
         </Routes>
       </div>

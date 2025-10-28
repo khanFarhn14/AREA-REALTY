@@ -23,6 +23,11 @@ export default function Home() {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }, [pathname]);
 
+    const handleLocation = (locationName) => {
+        navigate(`/india/explore/${locationName}`);
+        window.scrollTo(0, 0);
+    };
+
     return (
         <React.Fragment>
 
@@ -116,18 +121,18 @@ export default function Home() {
                     <div className="second-content-footer">
                         <h4>Locations:</h4>
                         <div className="content-footer-link">
-                            <Link to="/karjat">
+                            <Button variant="link" onClick={() => handleLocation("karjat")}>
                                 <span className="align-middle">Karjat</span>
-                            </Link>
-                            <Link to="/lonavala">
+                            </Button>
+                            <Button variant="link" onClick={() => handleLocation("lonavala")}>
                                 <span className="align-middle">Lonavala</span>
-                            </Link>
-                            <Link to="/alibaug">
+                            </Button>
+                            <Button variant="link" onClick={() => handleLocation("alibaug")}>
                                 <span className="align-middle">Alibaug</span>
-                            </Link>
-                            <Link to="/khopoli">
+                            </Button>
+                            <Button variant="link" onClick={() => handleLocation("khopoli")}>
                                 <span className="align-middle">Khopoli</span>
-                            </Link>
+                            </Button>
                         </div>
                     </div>
                 </Container>
