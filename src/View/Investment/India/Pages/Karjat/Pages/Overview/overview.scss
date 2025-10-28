@@ -159,20 +159,4 @@
             }
         }
     }
-
-    .frequently-asked-questions {
-        li {
-            display: block;
-            padding: 12px 0;
-            border-bottom: 1px solid #f6f3f4;
-            &:last-child {
-                border-bottom: 0;
-            }
-
-            h6 {
-                color: #727272;
-            }
-        }
-    }
-
 }

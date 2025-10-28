@@ -219,24 +219,31 @@ export default function OverviewView() {
                     </Card.Body>
                 </Card>
 
+                {/* READY TO INVEST IN KARJAT */}
+                <div className="ready-to-invest-location">
+                    <div className="ready-to-invest-header">
+                        <h3>Ready to Invest in Karjat?</h3>
+                        <p>
+                            Get comprehensive legal pack: 7/12, FERFAR/e-mutation, title search, NA order, layout approvals, RERA docs, encumbrance report,
+                            and site access affidavit.
+                        </p>
+                    </div>
 
-                {/* READY TO INVEST IN DUBAI */}
-                <Card className="card-one h-auto">
-                    <Card.Body>
-                        <h3 className="fs-14">Ready to Invest in Dubai?</h3>
-                        <p className="fs-12">Speak with our Dubai investment specialists today</p>
-                        <div className="d-flex gap-2 mt-3">
-                            <Button variant="primary" className="fs-14" type="buttobn">
-                                <i className="ri-phone-line me-1 align-middle"></i>
-                                <span className="align-middle">Call Now</span>
-                            </Button>
-                            <Button variant="outline-secondary" className="fs-14" type="buttobn">
-                                <i className="ri-calendar-line me-1 align-middle"></i>
-                                <span className="align-middle">Schedule Meeting</span>
-                            </Button>
-                        </div>
-                    </Card.Body>
-                </Card>
+                    <div className="ready-to-invest-bttn">
+                        <Button variant="primary" className="d-flex gap-1 align-items-center">
+                            <i className="ri-phone-line align-middle"></i>
+                            <span className="align-middle">Contact Karjat Expert</span>
+                        </Button>
+                        <Button variant="outline-secondary" className="d-flex gap-1 align-items-center">
+                            <i className="ri-calendar-line align-middle"></i>
+                            <span className="align-middle">Schedule Site Visit</span>
+                        </Button>
+                        <Button variant="outline-secondary" className="d-flex gap-1 align-items-center">
+                            <i className="ri-share-line align-middle"></i>
+                            <span className="align-middle">Share This Page</span>
+                        </Button>
+                    </div>
+                </div>
             </div>
         </React.Fragment>
     )

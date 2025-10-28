@@ -1,3 +1,4 @@
+// INVESTMENT EXPLORE SECTION
 .investment-explore-section {
     padding: 8rem 0;
 
@@ -39,6 +40,74 @@
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+// FREQUENTLY ASKED QUESTION
+.frequently-asked-questions {
+    li {
+        display: block;
+        padding: 12px 0;
+        border-bottom: 1px solid #f6f3f4;
+
+        &:last-child {
+            border-bottom: 0;
+        }
+
+        h6 {
+            color: #727272;
+        }
+    }
+}
+
+// READY TO INVEST LOCATION
+.ready-to-invest-location {
+    padding: 50px 0 0 0;
+
+    .ready-to-invest-header {
+        text-align: center;
+        margin-bottom: 24px;
+
+        h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .ready-to-invest-bttn {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+
+        button {
+            padding: 8px 24px;
+            border-radius: 3px;
+        }
+    }
+}
+
+// MOBILE VIEW MEDIA QUERY
+@media screen and (max-width: 480px) {
+    // INVESTMENT EXPLORE SECTION
+    .investment-explore-section {
+        padding: 5rem 0;
+    }
+
+    // READY TO INVEST LOCATION
+    .ready-to-invest-location {
+        .ready-to-invest-bttn {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            button {
+                width: 100%;
+                justify-content: center;
             }
         }
     }

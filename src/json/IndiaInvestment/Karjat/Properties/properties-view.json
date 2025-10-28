@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Morning Star",
+        "image": "morning-star.png",
+        "description": "Luxury villa with modern architecture and lush surroundings.",
+        "buttonText": "View Details",
+        "link": "/projects/morning-star"
+    },
+    {
+        "title": "Mountain Retreat",
+        "image": "mountain-retreat.png",
+        "description": "Peaceful estate nestled amidst green hills and scenic views.",
+        "buttonText": "View Details",
+        "link": "/projects/mountain-retreat"
+    },
+    {
+        "title": "Summer Hills",
+        "image": "summer-hills.png",
+        "description": "Exclusive property featuring premium amenities and open spaces.",
+        "buttonText": "View Details",
+        "link": "/projects/summer-hills"
+    },
+    {
+        "title": "Green Gold",
+        "image": "green-gold.png",
+        "description": "Elegant villa surrounded by water and greenery.",
+        "buttonText": "View Details",
+        "link": "/projects/green-gold"
+    }
+]
