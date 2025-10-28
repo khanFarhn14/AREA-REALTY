@@ -1,361 +1,242 @@
-// STRATEGIC LOCATION CARD
-.strategic-location-card {
-    border: 1px solid #e5e7eb;
-    border-radius: 6px;
-    padding: 20px 24px;
-    background-color: #fff;
-    margin-bottom: 24px;
+// land plot wrapper
+.land-plot-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
 
-
-    .title {
-        font-size: 16px;
-        font-weight: 600;
-        color: #1a1a1a;
-        margin-bottom: 10px;
-    }
-
-    .description {
+    .column-title {
+        color: #1f2937;
         font-size: 14px;
-        line-height: 1.6;
-        color: #444;
-    }
-}
-
-// LEGAL CARD
-.legal-card {
-    border: 1px solid #e5e7eb;
-    border-radius: 6px;
-    padding: 24px;
-    background: #fff;
-    margin-bottom: 24px;
-
-    .legal-main-title {
-        font-size: 18px;
-        font-weight: 600;
-        color: #1a1a1a;
-        margin-bottom: 20px;
+        margin-bottom: 0.25rem;
     }
 
-    .legal-sections {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
+    .land-plot-card {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.6rem;
+        border-radius: 3px;
+        padding: 8px 12px;
 
-        @media (max-width: 768px) {
-            grid-template-columns: 1fr;
-            gap: 24px;
-        }
-    }
-
-    .legal-content {
-        .legal-content-title {
-            font-size: 16px;
-            font-weight: 600;
-            color: #333;
-            margin-bottom: 16px;
+        .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            flex-shrink: 0;
+            margin-top: 5px;
         }
 
-        .item-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-
-            .item {
-                display: flex;
-                align-items: flex-start;
-                margin-bottom: 16px;
-
-                .icon {
-                    color: #2563eb;
-                    font-size: 1rem;
-                    margin-right: 12px;
-                    flex-shrink: 0;
-                }
-
-                .text {
-                      font-size: 14px;
-                    strong {
-                        color: #1a1a1a;
-                        display: block;
-                        font-weight: 600;
-                        margin-bottom: 2px;
-                    }
-
-                    p {
-                        color: #555;
-                        margin: 0;
-                        line-height: 1.5;
-                    }
-                }
-            }
-        }
-    }
-}
-
-// VISA CARD
-.visa-card {
-    border: 1px solid #e5e7eb;
-    border-radius: 6px;
-    padding: 24px;
-    background: #fff;
-    margin-bottom: 24px;
-
-    .main-title {
-        font-size: 16px;
-        font-weight: 600;
-        color: #1a1a1a;
-        margin-bottom: 20px;
-    }
-
-    .visa-sections {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 24px;
-
-        @media (max-width: 900px) {
-            grid-template-columns: 1fr;
-            gap: 16px;
-        }
-    }
-
-    .visa-box {
-        border-radius: 4px;
-        padding: 20px;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-        &:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-        }
-
-        .visa-title {
+        .title {
+            color: #111827;
             font-size: 14px;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin-bottom: 10px;
         }
 
-        .benefit-list {
-            list-style: disc;
-            padding-left: 20px;
-            margin: 0;
-
-            li {
-                color: #333;
-                font-size: 14px;
-                line-height: 1.6;
-                margin-bottom: 4px;
-            }
-        }
-    }
-}
-
-// STRATEGIC ADVANTAGES
-.strategic-advantages {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background: #fff;
-    border: 1px solid #e5e7eb;
-    border-radius: 6px;
-    padding: 1.5rem;
-    margin-bottom: 24px;
-
-    .category {
-        flex: 1 1 45%;
-        margin-bottom: 2rem;
-
-        h3 {
-            font-size: 16px;
-            font-weight: 600;
-            color: #222;
-            margin-bottom: 1rem;
-        }
-
-        .item {
-            background: #f9fafb;
-            border-radius: 5px;
-            padding: 1rem 1.25rem;
-            margin-bottom: 0.8rem;
-
-            h4 {
-                font-size: 14px;
-                font-weight: 600;
-                color: #0d6efd;
-                margin-bottom: 0.3rem;
-            }
-
-            p {
-                font-size: 14px;
-                color: #555;
-                margin: 0;
-            }
-        }
-    }
-}
-
-// PRIME INVESTMENT AREAS
-.prime-investment-areas {
-    border: 1px solid #e5e5e5;
-    border-radius: 6px;
-    background: #fff;
-    padding: 1.5rem;
-    margin-bottom: 24px;
-
-    h2 {
-        font-size: 16px;
-        font-weight: 600;
-        color: #222;
-        margin-bottom: 1.5rem;
-    }
-
-    .area-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-        gap: 1rem;
-    }
-
-    .area-card {
-        border: 1px solid #e8eaf0;
-        border-radius: 8px;
-        background: #fafbfc;
-        padding: 1rem 1.25rem;
-        position: relative;
-        transition: box-shadow 0.2s ease, transform 0.2s ease;
-
-        .yield {
-            position: absolute;
-            top: 0.8rem;
-            right: 0.8rem;
-            background: #e8ecff;
-            color: #3758f9;
-            font-weight: 600;
+        .description {
+            color: #4b5563;
             font-size: 12px;
-            border-radius: 4px;
-            padding: 0.2rem 0.6rem;
+            margin-top: 2px;
+        }
+    }
+}
+
+// PROCESS WRAPPER
+.process-wrapper {
+    .process-card {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.6rem;
+        border-radius: 3px;
+        padding: 8px 12px;
+
+        .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            flex-shrink: 0;
+            margin-top: 5px;
         }
 
-        h3 {
-            font-size: 16px;
-            font-weight: 600;
-            color: #1d1d1f;
-            margin-bottom: 0.4rem;
-        }
-
-        p {
-            color: #555;
+        .title {
+            color: #111827;
             font-size: 14px;
-            margin-bottom: 0.6rem;
         }
 
-        ul {
-            margin: 0 0 0.8rem 1rem;
-            padding: 0;
-            list-style: disc;
+        .description {
+            color: #4b5563;
+            font-size: 0.85rem;
+            margin-top: 2px;
+        }
+    }
+}
+
+// TIMELINE WRAPPER
+.timeline-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+    .timeline-card {
+        border: 1px solid #e5e7eb;
+        border-radius: 6px;
+        padding: 8px 12px;
+
+        .timeline-header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.25rem;
+
+            .dot {
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+            }
+
+            .title {
+                font-size: 14px;
+            }
+        }
+
+        .description {
+            font-size: 12px;
+            color: #374151;
+            margin-left: 16px;
+            margin-bottom: 0.25rem;
+        }
+
+        .timeline-points {
+            margin: 0;
+            margin-left: 16px;
+            list-style-type: disc;
 
             li {
-                color: #0d6efd;
-                font-size: 14px;
+                font-size: 0.85rem;
+                color: #1e3a8a;
                 line-height: 1.4;
             }
         }
+    }
+}
 
-        .investment {
-            border-top: 1px solid #ddd;
-            padding-top: 0.6rem;
-            font-size: 14px;
+// PROJECT HIGHLIGHTS WRAPPER
+.project-highlights-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+    .project-highlight {
+        border: 1px solid #e5e7eb;
+        border-radius: 6px;
+        background-color: #fff;
+        padding: 0.75rem 1rem;
+        transition: all 0.2s ease;
+
+        &:hover {
+            background-color: #f9fafb;
+        }
+
+        .title {
+            font-weight: 600;
+            color: #1e293b;
+            font-size: 0.95rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .description {
+            font-size: 0.85rem;
+            color: #374151;
+            margin-bottom: 0.25rem;
+            line-height: 1.4;
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+
+            a {
+                color: #2563eb;
+                font-size: 0.85rem;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+// START CARD
+.stat-card {
+    flex: 1;
+    min-width: 180px;
+    text-align: center;
+
+    .stat-value {
+        font-size: 24px;
+        color: #3b82f6;
+        margin-bottom: 8px;
+    }
+
+    .stat-title {
+        font-size: 14px;
+        color: #111827;
+    }
+
+    .stat-subtitle {
+        font-size: 12px;
+        color: #9ca3af;
+    }
+}
+
+// FEATURES WRAPPER
+.features-wrapper {
+    .features-card {
+        h3 {
+            color: #647488;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .feature-item {
             display: flex;
             justify-content: space-between;
-            color: #333;
+            align-items: center;
+            padding: 0.6rem 0;
+            border-bottom: 1px solid #e5e7eb;
 
-            span:first-child {
-                font-weight: 600;
+            .label {
+                color: #6b7280;
+                font-size: 0.95rem;
             }
 
-            span:last-child {
-                color: #0d6efd;
-                font-weight: 500;
-            }
-        }
-    }
-}
+            .value {
+                color: #374151;
+                text-align: right;
+                font-size: 0.95rem;
 
-// BUSINESS ENVIRONMENT
-.business-environment {
-    border: 1px solid #e5e5e5;
-    border-radius: 6px;
-    background: #fff;
-    padding: 1.5rem;
+                &.link {
+                    color: #3b82f6;
+                    cursor: pointer;
 
-    h2 {
-        font-size: 16px;
-        font-weight: 600;
-        color: #222;
-        margin-bottom: 1.5rem;
-    }
-
-    .factors-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 1.5rem;
-    }
-
-    .factor-column {
-        h3 {
-            font-size: 14px;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin-bottom: 0.75rem;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-
-            li {
-                display: flex;
-                align-items: center;
-                font-size: 14px;
-                color: #444;
-                margin-bottom: 0.5rem;
-
-                &::before {
-                    content: "";
-                    display: inline-block;
-                    width: 8px;
-                    height: 8px;
-                    border-radius: 50%;
-                    background: var(--dot-color, #000);
-                    margin-right: 0.5rem;
-                }
-
-                &:last-child {
-                    margin-bottom: 0;
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
         }
     }
 }
 
-
-/* ✅ Responsive Layout */
-@media (max-width: 768px) {
-    .prime-investment-areas {
-        .area-grid {
-            grid-template-columns: 1fr;
-        }
-    }
-
-    .business-environment {
-        .factors-grid {
-            grid-template-columns: 1fr;
-        }
-    }
-}
-
-@media (max-width: 480px) {
-    .strategic-advantages {
+// MOBILE VIEW MEDIA QUERY
+@media screen and (max-width: 480px) {
+    .land-plot-wrapper {
         display: block;
+        .column-title {
+            &.last {
+                margin-top: 20px;
+            }
+        }
     }
 }

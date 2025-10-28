@@ -1,3 +1,15 @@
+table {
+    thead,
+    tbody {
+        tr {
+            th,
+            td {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
 // INVESTMENT EXPLORE SECTION
 .investment-explore-section {
     padding: 8rem 0;
@@ -90,6 +102,10 @@
             border-radius: 3px;
         }
     }
+}
+
+.overview-view-common {
+    margin-bottom: 24px;
 }
 
 // MOBILE VIEW MEDIA QUERY
