@@ -1,0 +1,70 @@
+[
+    {
+        "category": "Infrastructure Game-Changers",
+        "items": [
+            {
+                "name": "Missing Link Tunnel 96% complete, saving 25 minutes",
+                "tag": "green"
+            },
+            {
+                "name": "₹909 crore Skywalk Project Tiger Point ↔ Lion's Point",
+                "tag": "blue"
+            },
+            {
+                "name": "NMIA access within 1.5 hrs by 2025",
+                "tag": "blue"
+            }
+        ]
+    },
+    {
+        "category": "Tourism & Lifestyle Economy",
+        "items": [
+            {
+                "name": "Millions of annual tourists, established rental ecosystem",
+                "tag": "purple"
+            },
+            {
+                "name": "Luxury brands: Hilton Shillim, Radisson Blu, Fariyas",
+                "tag": "orange"
+            },
+             {
+                "name": "Wellness tourism boom: spas, yoga retreats, boutique stays",
+                "tag": "blue"
+            }
+        ]
+    },
+    {
+        "category": "Environmental & Climate Advantage",
+        "items": [
+            {
+                "name": "AQI 45-65: Western Ghats fresh air quality advantage",
+                "tag": "green"
+            },
+            {
+                "name": "Year-round 15°C-28°C perfect for wellness tourism",
+                "tag": "blue"
+            },
+            {
+                "name": "625m elevation with minimal industrial pollution",
+                "tag": "purple"
+            }
+        ]
+    },
+     {
+        "category": "Market Validation & Scarcity",
+        "items": [
+            {
+                "name": "Celebrity & HNI endorsement cementing aspirational status",
+                "tag": "yellow"
+            },
+            {
+                "name": "Hills, slopes, forest zones restrict oversupply",
+                "tag": "red"
+            },
+            {
+                "name": "Work-from-anywhere trend supporting hybrid living",
+                "tag": "orange"
+            }
+        ]
+    }
+]

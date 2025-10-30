@@ -1,0 +1,44 @@
+.investment-benefits-section {
+  background-color: #f2fbf4;
+  padding: 16px 24px;
+  border-radius: 6px;
+  font-family: "Inter", sans-serif;
+
+  .benefit-block {
+    h4 {
+      font-size: 14px;
+      font-weight: 500;
+      color: #2c2c2c;
+      margin-bottom: 8px;
+    }
+
+    .benefit-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          position: relative;
+          color: #0f9d58;
+          font-size: 13px;
+          line-height: 1.8;
+          padding-left: 14px;
+
+          &::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #0f9d58;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}

@@ -113,12 +113,16 @@
         border-radius: 6px;
         padding: 1rem 1.25rem;
         background-color: #fff;
+        transition: all 0.3s ease;
+
+        &:hover {
+            background-color: #f8faff;
+        }
 
         .segment-header {
             display: flex;
             align-items: center;
             gap: 0.5rem;
-             margin-bottom: 5px;
 
             .dot {
                 width: 8px;
@@ -129,20 +133,21 @@
 
             .title {
                 margin: 0;
-                font-size: 14px;
+                font-size: 1rem;
                 font-weight: 600;
                 color: #111827;
             }
         }
 
         .description {
-            font-size: 12px;
+            margin: 0.25rem 0 0.5rem 1.5rem;
+            font-size: 0.9rem;
             color: #4b5563;
-            margin-bottom: 5px;
         }
 
         .target {
-            font-size: 12px;
+            margin: 0 0 0 1.5rem;
+            font-size: 0.9rem;
             color: #1e3a8a;
 
             .label {

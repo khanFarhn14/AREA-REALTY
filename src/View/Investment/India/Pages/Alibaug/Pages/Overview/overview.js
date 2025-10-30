@@ -167,7 +167,7 @@ export default function OverviewView() {
                     </Card.Body>
                 </Card>
 
-                {/* WHY KARJAT - INVESTMENT CASE */}
+                {/* WHY DUBAI - INVESTMENT CASE */}
                 <Card className="card-one h-auto overview-view-common">
                     <Card.Header>
                         <Card.Title className="fs-14 mb-0">Strategic Advantages</Card.Title>

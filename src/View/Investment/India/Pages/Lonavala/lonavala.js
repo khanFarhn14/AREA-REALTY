@@ -1,6 +1,10 @@
 import React from "react";
 import bgImage from "../../../../../assets/img/location/lonovala-heading.png";
 import { Container, Nav, Tab } from "react-bootstrap";
+import OverviewView from "./Pages/Overview/overview";
+import PropertyView from "./Pages/Property/property";
+import Investments from "./Pages/Investments/investments";
+import Location from "./Pages/Location/location";
 
 export default function InvestmentsLonavala() {
     return (
@@ -17,7 +21,7 @@ export default function InvestmentsLonavala() {
                 </Container>
             </div>
 
-             <section className="investment-explore-section">
+            <section className="investment-explore-section">
                 <Container>
                     <div className="section-title" data-aos="fade-up" data-aos-delay="300">
                         <h3>Lonavala</h3>
@@ -36,7 +40,20 @@ export default function InvestmentsLonavala() {
                             </div>
 
                             <div className="explore-tabs-content">
-                             
+                                <Tab.Content>
+                                    <Tab.Pane eventKey="overview_tab">
+                                        <OverviewView />
+                                    </Tab.Pane>
+                                    <Tab.Pane eventKey="properties_tab">
+                                        <PropertyView />
+                                    </Tab.Pane>
+                                    <Tab.Pane eventKey="investments_tab">
+                                        <Investments />
+                                    </Tab.Pane>
+                                    <Tab.Pane eventKey="location_tab">
+                                        <Location />
+                                    </Tab.Pane>
+                                </Tab.Content>
                             </div>
                         </div>
                     </Tab.Container>

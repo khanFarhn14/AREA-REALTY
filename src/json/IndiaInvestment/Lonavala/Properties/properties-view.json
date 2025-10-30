@@ -1,0 +1,53 @@
+[
+    {
+        "id": "#001",
+        "tag": "Available",
+        "title": "Luxury Villas & Second Homes",
+        "price": "₹1.2Cr - ₹8Cr++",
+        "subtitle": "Starting Price Range",
+        "bedrooms": "3-4",
+        "bathrooms": "3-4",
+        "area": "2500+",
+        "features": [
+            "Fully built villas with branded amenities",
+            "Gated complexes with resort facilities",
+            "Suited for end-users and rental investors",
+            "Weekend rentals ₹12,000–₹30,000/night"
+        ],
+        "color": "#1a73e8"
+    },
+    {
+        "id": "#002",
+        "tag": "Limited",
+        "title": "Gated Communities / Townships",
+        "price": "₹2.65Cr avg",
+        "subtitle": "Starting Price Range",
+        "bedrooms": "3-4",
+        "bathrooms": "3-4",
+        "area": "2500+",
+        "features": [
+            "Plotted developments (e.g. Supreme Universal)",
+            "Common infrastructure: clubhouse, pool, security",
+            "Internal roads, utilities, maintenance included",
+            "Build flexibility: construct later or resell"
+        ],
+        "color": "#6c63ff"
+    },
+    {
+        "id": "#003",
+        "tag": "Select Parcels",
+        "title": "NA Plots & Boutique Bungalows",
+        "price": "Based on ₹3K–₹7K/sqft",
+        "subtitle": "Starting Price Range",
+        "bedrooms": "3-4",
+        "bathrooms": "3-4",
+        "area": "2500+",
+        "features": [
+            "NA-converted plots ready for construction",
+            "Custom-design boutique villas available",
+            "Lake view, hillside, infinity pool options",
+            "Clear title with chain verification"
+        ],
+        "color": "#007bff"
+    }
+]
