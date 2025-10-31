@@ -1,26 +1,26 @@
 @font-face {
   font-family: 'BR Omny';
-  src: url('./assets/fonts/BR-OMNY/BROmny-Regular-BF65557eb88143f.otf') format('truetype');
+  src: url('./assets/fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'BR Omny';
-  src: url('./assets/fonts/BR-OMNY/BROmny-SemiBold-BF65557eb890e9a.otf') format('truetype');
+  src: url('./assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'BR Omny';
-  src: url('./assets/fonts/BR-OMNY/BROmny-Bold-BF65557eb88a83f.otf') format('truetype');
+  src: url('./assets/fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
 body {
-  font-family: 'BR Omny', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #fff;
 
   h1,

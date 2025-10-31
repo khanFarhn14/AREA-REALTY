@@ -1,6 +1,6 @@
 import React from "react";
 import "./location.scss";
-import { Card, Col, Row, Button } from "react-bootstrap";
+import { Card, Col, Row, Button, Table } from "react-bootstrap";
 
 export default function Location() {
 
@@ -250,6 +250,105 @@ export default function Location() {
                                 </div>
                             ))}
                         </div>
+                    </Card.Body>
+                </Card>
+
+                   {/* COMPREHENSIVE ENVIRONMENTAL PROFILE */}
+                <Card className="card-one h-auto overview-view-common">
+                    <Card.Header>
+                        <Card.Title className="fs-14 mb-0">Comprehensive Environmental Profile</Card.Title>
+                    </Card.Header>
+                    <Card.Body>
+                        <Table className="table w-100" responsive>
+                            <thead>
+                                <tr>
+                                    <th>Air Quality & Pollution</th>
+                                    <th></th>
+                                    <th>Climate & Weather</th>
+                                    <th></th>
+                                    <th>Investment Benefits</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Current AQI:</td>
+                                    <td className="text-end text-success">45-65 (Good)</td>
+                                    <td>Summer High:</td>
+                                    <td className="text-end text-danger">28°C (vs 38°C Mumbai)</td>
+                                    <td>Health Tourism:</td>
+                                    <td className="text-end text-success">Growing Sector</td>
+                                </tr>
+
+                                 <tr>
+                                    <td>PM2.5 Levels:</td>
+                                    <td className="text-end text-success">15-25 μg/m³</td>
+                                    <td>Winter Low:</td>
+                                    <td className="text-end text-primary">15°C (vs 22°C Mumbai)</td>
+                                    <td>Wellness Demand:</td>
+                                    <td className="text-end text-primary">High Premium</td>
+                                </tr>
+
+                                 <tr>
+                                    <td>Industrial Pollution:</td>
+                                    <td className="text-end text-success">Minimal</td>
+                                    <td>Monsoon Peak:</td>
+                                    <td className="text-end text-primary">June-September</td>
+                                    <td>Season Extension:</td>
+                                    <td className="text-end" style={{color: "#9810fa"}}>Year-round Appeal</td>
+                                </tr>
+
+                                 <tr>
+                                    <td>Air Quality Rank:</td>
+                                    <td className="text-end text-primary">Top 10% in Maharashtra</td>
+                                    <td>Pleasant Days:</td>
+                                    <td className="text-end text-primary">300+ per year</td>
+                                    <td>ESG Investment:</td>
+                                    <td className="text-end text-primary">Clean Air Premium</td>
+                                </tr>
+                            </tbody>
+                        </Table>
+                    </Card.Body>
+                </Card>
+
+                {/* LOCATION STATISTICS */}
+                <Card className="card-one h-auto overview-view-common">
+                    <Card.Header>
+                        <Card.Title className="fs-14 mb-0">Location Statistics</Card.Title>
+                    </Card.Header>
+                    <Card.Body>
+                        <Row className="g-3">
+                            {[
+                                {
+                                    value: "90MN",
+                                    title: "From Mumbai",
+                                    subtitle: "Express highway",
+                                },
+                                {
+                                    value: "45-65AQI",
+                                    title: "Air Quality",
+                                    subtitle: "Good to Moderate",
+                                },
+                                {
+                                    value: "8-10°C",
+                                    title: "Temperature Drop",
+                                    subtitle: "Cooler than Mumbai",
+                                },
+                                {
+                                    value: "625M",
+                                    title: "Elevation",
+                                    subtitle: "Above sea level",
+                                }
+                            ].map((item, index) => (
+                                <Col md={3} xs={6} key={index}>
+                                    <div className="stat-card" key={index}>
+                                        <h2 className="stat-value">{item.value}<span className="fs-12">{item.value_text}</span></h2>
+                                        <h3 className="stat-title">{item.title}</h3>
+                                        <p className="stat-subtitle">{item.subtitle}</p>
+                                    </div>
+                                </Col>
+                            ))}
+                        </Row>
                     </Card.Body>
                 </Card>
 
