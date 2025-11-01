@@ -34,7 +34,17 @@ export default function Location() {
     };
     return (
         <React.Fragment>
-            <div className="page-title" style={{ backgroundImage: `url(${bgImage})` }}>
+            {/* LOCATON SECTION */}
+            <section className="location-section">
+                <div className="home-section-background">
+                        <iframe
+                            src="https://www.youtube.com/embed/8po7smxXgrU?autoplay=1&mute=1&loop=1&playlist=8po7smxXgrU&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&start=0&end=0&version=3&enablejsapi=1&origin=window.location.origin"
+                            allow="autoplay; encrypted-media"
+                            frameBorder="0"
+                            allowFullScreen={false}
+                            title="Hero Background Video"
+                        />
+                    </div>
                 <Container>
                     <div className="page-title-content">
                         <h2>AREA REALTY</h2>
@@ -44,22 +54,8 @@ export default function Location() {
                         </ul>
                     </div>
                 </Container>
-            </div>
-            
-            {/* LOCATON SECTION */}
-            <section className="location-section">
                 <div>
-                    <div className="home-section-background">
-                        <iframe
-                            src="https://www.youtube.com/embed/8po7smxXgrU?autoplay=1&mute=1&loop=1&playlist=8po7smxXgrU&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&start=0&end=0&version=3&enablejsapi=1&origin=window.location.origin"
-                            allow="autoplay; encrypted-media"
-                            frameBorder="0"
-                            allowFullScreen={false}
-                            title="Hero Background Video"
-                        />
-                    </div>
-
-                    <div  >
+                    <div>
                         <Slider {...locationSlide}>
                             {locationData.map((item, index) => (
                                 <div className="location-area-view" key={index}>
