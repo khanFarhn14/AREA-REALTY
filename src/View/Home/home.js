@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import "./home.scss";
 import Header from "../_Common/header";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import logo from "../../assets/img/area-realty-logo.png";
 
 export default function Home() {
     const navigate = useNavigate();
@@ -45,10 +46,9 @@ export default function Home() {
                 </div>
                 <Container>
                     <div className="home-section-content">
+                        <Image src={logo} alt="logo"  />
                         <h1 data-aos="fade-up">AREA REALTY</h1>
                         <p data-aos="fade-up">experiences - exploration - estates</p>
-
-
                     </div>
                 </Container>
                 <div className="home-section-content-link">

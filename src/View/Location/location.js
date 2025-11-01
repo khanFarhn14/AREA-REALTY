@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import bgImage from "../../assets/img/home-background.png"
 import locationData from "../../json/Location/location.json";
 import Slider from "react-slick";
 import "./location.scss";
