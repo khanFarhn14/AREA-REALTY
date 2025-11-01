@@ -12,9 +12,10 @@ import Footer from './View/_Common/Footer';
 import Loader from './View/_Common/loader';
 import IndiaExplore from './View/Investment/India/india-explore';
 import DubaiExplore from './View/Investment/Dubai/dubai-explore';
+import KarjarPropertiesDetails from './View/Investment/India/Pages/Karjat/Pages/Property/Details/details';
 
 export default function App() {
-    const location = useLocation();
+  const location = useLocation();
   const [loading, setLoading] = useState(false);
 
   // ✅ Initialize AOS only once when the app loads
@@ -42,6 +43,7 @@ export default function App() {
           <Route path="/location" element={<Location />} />
           <Route path="/india/explore/:location" element={<IndiaExplore />} />
           <Route path="/dubai/explore" element={<DubaiExplore />} />
+          <Route path="/india/explore/karjat/detail/:location" element={<KarjarPropertiesDetails />} />
         </Routes>
       </div>
       <Footer />

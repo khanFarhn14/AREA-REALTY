@@ -1,0 +1,730 @@
+.detils-page-title {
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background-color: rgb(0 0 0 / 35%);
+    }
+
+    .back-btn {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 3;
+        color: #ffffff;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 14px;
+        padding: 8px 16px;
+        background-color: #9a9e9f;
+        border: 1px solid #9a9e9f;
+        border-radius: 25px;
+
+        &:hover {
+            background-color: #7b7b7b;
+        }
+    }
+
+    .detils-page-title-img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        scale: 110% 110%;
+    }
+
+    .banner-overlay {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 2.5rem;
+
+        .banner-overlay-content {
+            position: relative;
+            z-index: 2;
+
+            .tag {
+                color: #ffffff;
+                padding: 2px 8px;
+                font-size: 12px;
+                text-transform: uppercase;
+                background-color: #6c6b6a;
+                border: 1px solid #9a9a9a;
+                border-radius: 8px;
+                margin-bottom: 20px;
+                display: inline-block;
+            }
+
+            h2 {
+                color: #ffffff;
+                font-size: 40px;
+                font-weight: 400;
+                margin-bottom: 12px;
+                text-decoration: underline;
+            }
+
+            p {
+                color: #ffffff;
+                font-size: 20px;
+            }
+
+            .location {
+                margin-top: 16px;
+                color: #ffffff;
+
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+
+// DETAILS PAGE CONTENT
+.detail-page-content {
+    padding: 5rem 0;
+    background-color: #000;
+
+    // BUTTON INFO
+    .buttin-info {
+        display: flex;
+        justify-content: flex-start;
+        gap: 1rem;
+        background: #000;
+        margin-bottom: 4rem;
+
+        .custom-btn-group {
+            display: flex;
+            gap: 1rem;
+
+            .btn {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                font-weight: 600;
+                letter-spacing: 0.5px;
+                text-transform: uppercase;
+                border-radius: 8px;
+                padding: 0.75rem 1.5rem;
+                transition: all 0.3s ease;
+            }
+
+            .schedule-btn {
+                border: none;
+            }
+
+            .download-btn,
+            .share-btn {
+                background-color: #111;
+                color: #fff;
+                border: 1px solid #333;
+
+                &:hover {
+                    background-color: #1a1a1a;
+                }
+            }
+
+            i {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    // PROPERTY HIHLIGHT
+    .property-highlights {
+        background: #111;
+        border-radius: 12px;
+        padding: 1rem;
+        color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+        .title {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #888;
+            margin-bottom: 1rem;
+        }
+
+        .highlight-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.6rem 0;
+
+            &.bordered {
+                border-bottom: 1px solid #222;
+            }
+
+            .value {
+                font-size: 1rem;
+                font-weight: 600;
+                color: #fff;
+
+                &.available {
+                    color: #22c55e; // green color for "AVAILABLE"
+                }
+            }
+
+            .label {
+                font-size: 0.75rem;
+                text-transform: uppercase;
+                color: #888;
+                letter-spacing: 1px;
+                margin: 0;
+            }
+        }
+    }
+
+    // PROJECT FEATURES
+    .project-features {
+        background-color: #000;
+        margin-bottom: 5rem;
+
+        .feature-card {
+            background-color: #111;
+            border: 1px solid #222;
+            border-radius: 10px;
+            color: #fff;
+            height: 100%;
+
+            .feature-title {
+                font-size: 1rem;
+                font-weight: 600;
+                margin-bottom: 0.25rem;
+
+                i {
+                    color: #2563eb;
+                    font-size: 14px;
+                    vertical-align: middle;
+                }
+            }
+
+            .feature-desc {
+                font-size: 0.875rem;
+                color: #aaa;
+                margin: 0;
+            }
+        }
+    }
+
+    // VILLA SOECS CONTAINER
+    .villa-specs-heading {
+        margin-bottom: 2rem;
+
+        h2 {
+            font-size: 24px;
+            font-weight: 500;
+            color: #fff;
+            position: relative;
+            padding-left: 10px;
+
+            &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 3px;
+                background: #007bff; // blue accent line
+                border-radius: 2px;
+            }
+        }
+
+        p {
+            margin-top: 0.5rem;
+            font-size: 12px;
+            color: #aaa;
+        }
+    }
+
+    .villa-specs-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .villa-card {
+            background: #1a1a1a;
+            color: #fff;
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+            position: relative;
+            overflow: hidden;
+
+            .villa-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid #2a2a2a;
+                padding-bottom: 0.75rem;
+
+                h3 {
+                    font-size: 18px;
+                    margin: 0;
+                }
+
+                .villa-sub {
+                    font-size: 0.9rem;
+                    color: #aaa;
+                    margin-top: 0.3rem;
+                }
+
+                .villa-price {
+                    text-align: right;
+
+                    h4 {
+                        color: #3fa9f5;
+                        margin: 0;
+                        font-size: 20px;
+                    }
+
+                    p {
+                        color: #888;
+                        font-size: 14px;
+                        margin: 0.2rem 0 0;
+                    }
+                }
+            }
+
+            .villa-details-row {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                margin-top: 1rem;
+                gap: 1rem;
+
+                .detail-box {
+                    text-align: left;
+
+                    .label {
+                        font-size: 10px;
+                        color: #999;
+                    }
+
+                    .value {
+                        font-weight: 600;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .villa-features {
+                margin-top: 1rem;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+
+                .feature-pill {
+                    background: #1e2939;
+                    padding: 4px 10px;
+                    border-radius: 6px;
+                    font-size: 14px;
+                    color: #d1d5dc;
+                }
+            }
+
+            .villa-extra {
+                font-size: 12px;
+                color: #bbb;
+                margin-top: 0.75rem;
+            }
+
+            .villa-status {
+                position: absolute;
+                right: 1.5rem;
+                bottom: 1.5rem;
+                font-size: 12px;
+                font-weight: 600;
+                padding: 4px 12px;
+                border-radius: 8px;
+                border: 1px solid transparent;
+
+                &.green {
+                    background: rgba(40, 167, 69, 0.15);
+                    border-color: #28a745;
+                    color: #28a745;
+                }
+
+                &.orange {
+                    background: rgba(255, 152, 0, 0.15);
+                    border-color: #ff9800;
+                    color: #ff9800;
+                }
+            }
+        }
+    }
+
+    // GALLERY WRAPPER
+    .gallery-wrapper {
+        margin-bottom: 4rem;
+        background-color: #000;
+        color: #fff;
+        padding: 3rem 1rem;
+        border-radius: 20px;
+        margin: 2rem auto;
+
+        .gallery-title {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+
+            .divider {
+                display: inline-block;
+                width: 3px;
+                height: 18px;
+                background: #3b82f6;
+                margin-right: 8px;
+                vertical-align: middle;
+            }
+        }
+
+        .gallery-subtitle {
+            color: #a0aec0;
+            margin-bottom: 2rem;
+            font-size: 16px;
+        }
+
+        .slider-wrapper {
+            border-radius: 12px;
+            overflow: hidden;
+
+            .main-slider {
+                img {
+                    width: 100%;
+                    height: 500px;
+                    object-fit: cover;
+                    border-radius: 10px;
+                }
+
+                .custom-arrow {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    background: rgba(0, 0, 0, 0.5);
+                    border-radius: 50%;
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #fff;
+                    z-index: 2;
+                    cursor: pointer;
+                    transition: all 0.3s;
+
+                    &.next {
+                        left: auto;
+                        right: 0;
+                    }
+
+                    &:hover {
+                        background: #3b82f6;
+                    }
+
+                    &.slick-prev {
+                        left: 10px;
+                    }
+
+                    &.slick-next {
+                        right: 10px;
+                    }
+                }
+            }
+
+            .thumb-slider {
+                margin-top: 1rem;
+
+                .slick-slide {
+                    width: auto !important;
+                }
+
+                .slick-track {
+                    width: 100% !important;
+                }
+
+
+                .thumb-item {
+                    padding: 0 5px;
+                    width: auto;
+
+                    img {
+                        width: 80px;
+                        height: 80px;
+                        object-fit: cover;
+                        border-radius: 8px;
+                        opacity: 0.6;
+                        cursor: pointer;
+                        transition: all 0.3s ease;
+
+                        &:hover,
+                        &.slick-current img {
+                            opacity: 1;
+                            border: 2px solid #3b82f6;
+                        }
+                    }
+                }
+
+                .slick-current {
+                    .thumb-item {
+                        img {
+                            opacity: 1;
+                            border: 2px solid #3b82f6;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    // EXPERIENCE MORNING STAR
+    .experience-morning-star {
+        background-color: #111;
+        color: #fff;
+        padding: 3rem 1rem;
+        border-radius: 20px;
+        text-align: center;
+
+        .section-title {
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 0.8rem;
+
+            .divider {
+                display: inline-block;
+                width: 3px;
+                height: 18px;
+                background: #3b82f6;
+                margin-right: 8px;
+                vertical-align: middle;
+            }
+        }
+
+        .section-subtitle {
+            color: #a0aec0;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 30px;
+
+            .btn {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                padding: 14px 40px;
+                font-size: 14px;
+            }
+
+            .btn-call {
+                background-color: #3b82f6;
+                border: none;
+                font-weight: 500;
+                border-radius: 8px;
+
+                &:hover {
+                    background-color: #2563eb;
+                }
+            }
+
+            .btn-visit {
+                color: #fff;
+                border: 1px solid #3b82f6;
+                background: transparent;
+                font-weight: 500;
+                border-radius: 8px;
+
+                &:hover {
+                    background-color: #3b82f6;
+                }
+            }
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            color: #a0aec0;
+            font-size: 14px;
+
+            span {
+                display: flex;
+                align-items: center;
+                gap: 0.4rem;
+            }
+        }
+    }
+}
+
+// MOBILE VIEW MEDIA QUERY
+@media screen and (max-width: 480px) {
+    .detils-page-title {
+        .banner-overlay {
+            padding: 1rem;
+        }
+    }
+
+    .detail-page-content {
+
+        // BUTTIN INFO
+        .buttin-info {
+            .custom-btn-group {
+                flex-wrap: wrap;
+
+                .btn {
+                    justify-content: center;
+                }
+            }
+        }
+
+        // PROPERTY HIGHLIGHT
+        .property-highlights {
+            .highlight-row {
+
+                .value,
+                .label {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        // PROJECT FEATURES
+        .project-features {
+            .feature-card {
+                .feature-title {
+                    font-size: 14px;
+                }
+
+                .feature-desc {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        // VILLA SPECS HEADING
+        .villa-specs-heading {
+            h2 {
+                font-size: 18px;
+            }
+        }
+
+        .villa-specs-container {
+            .villa-card {
+                padding: 20px 20px 80px 20px;
+
+                .villa-header {
+                    h3 {
+                        font-size: 16px;
+                    }
+
+                    .villa-sub {
+                        font-size: 12px;
+                    }
+
+                    .villa-price {
+
+                        h4 {
+                            font-size: 16px;
+                        }
+
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+
+                }
+
+                .villa-details-row {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+
+                    .detail-box {
+                        width: 45%;
+                        text-align: center;
+                    }
+                }
+
+                .villa-features {
+                    .feature-pill {
+                        padding: 4px 8px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        // GALLERY WRAPPER
+        .gallery-wrapper {
+            padding: 10px;
+
+            .slider-wrapper {
+                .main-slider {
+                    img {
+                        height: 300px;
+                    }
+                }
+
+                .main-slider {
+                    .custom-arrow {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+
+                .thumb-slider {
+                    .thumb-item {
+                        img {
+                            width: 50px;
+                            height: 50px;
+                        }
+                    }
+                }
+            }
+        }
+
+        //  EXPERIENCE MORNING STAR
+        .experience-morning-star {
+            padding: 10px;
+
+            .section-title {
+                font-size: 18px;
+            }
+
+            .section-subtitle {
+                font-size: 12px;
+            }
+
+            .button-group {
+
+                .btn-call,
+                .btn-visit {
+                    font-size: 12px;
+                    padding: 8px 18px;
+                }
+            }
+
+            .features {
+                gap: 1rem;
+                font-size: 12px;
+            }
+        }
+    }
+}

@@ -59,7 +59,12 @@ export default function PropertyView() {
                                 </div>
 
                                 <Card.Body className="property-footer d-flex justify-content-between align-items-center">
-                                    <Button variant="outline-dark" className="text-uppercase">{item.buttonText}</Button>
+                                    <Button
+                                        variant="outline-dark"
+                                        className="text-uppercase"
+                                        onClick={() => (window.location.href = `/india/explore/karjat/detail/${item.link}`)}>
+                                        {item.buttonText}
+                                    </Button>
                                     <i className="ri-share-forward-line share-icon" onClick={() => handleShare(item)} style={{ cursor: "pointer" }}></i>
                                 </Card.Body>
                             </Card>
