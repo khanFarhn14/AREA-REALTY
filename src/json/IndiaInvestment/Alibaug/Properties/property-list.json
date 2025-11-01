@@ -1,0 +1,66 @@
+[
+    {
+        "id": "#01",
+        "status": "Available",
+        "title": "Gated Villa Communities (NA plots + DCR-compliant villas)",
+        "price": "₹1.25Cr - ₹8Cr+",
+        "features": [
+            "Liquidity + branding + managed services → better rentals",
+            "Smoother resale with brand halo and turnkey management",
+            "Weekend demand optimization with hospitality partnerships",
+            "Pool into revenue-share programs with owner-use calendar",
+            "Near Mandwa/Kihim jetty belt for weekend accessibility",
+            "Professional property management with rental optimization"
+        ],
+        "tagColor": "#1a73e8",
+        "statusColor": "#16a34a"
+    },
+    {
+        "id": "#02",
+        "status": "Limited",
+        "title": "Boutique Bungalows on NA Plots",
+        "price": "₹2.5Cr - ₹10Cr+",
+        "features": [
+            "Highest design control with premium on view/privacy",
+            "CRZ buffers easier to respect when properly sited",
+            "Bespoke NA bungalow sites with view/orchard potential",
+            "Awas-Sasawane-Zirad belt strategic positioning",
+            "Architectural freedom with coastal premium appeal",
+            "Custom villa builds with clear title and access documentation"
+        ],
+        "tagColor": "#6c63ff",
+        "statusColor": "#f97316"
+    },
+    {
+        "id": "#03",
+        "status": "Select Parcels",
+        "title": "Land Banking (Future villa estate / agro-retreat)",
+        "price": "₹25L - ₹85L",
+        "features": [
+            "Larger parcels beyond jetty belt for future development",
+            "5-8yr appreciation cycle with infrastructure tailwinds",
+            "NMIA + access acceleration positioning for value creation",
+            "Lower entry cost with significant development optionality",
+            "Revenue-record clean-ups completed with clear documentation",
+            "Future appreciation play with rezoning potential"
+        ],
+        "tagColor": "#8b5cf6",
+        "statusColor": "#8b5cf6"
+    },
+    {
+        "id": "#04",
+        "status": "Premium Select",
+        "title": "Hospitality-Overlay Villas (Managed rental pools)",
+        "price": "₹3Cr - ₹15Cr+",
+        "features": [
+            "Weekender demand + brand halo support ADR/occupancy rates",
+            "Transparent revenue-share model + flexible owner-use calendar",
+            "Professional management through established hospitality operators",
+            "Radisson Blu, boutique resorts ecosystem integration",
+            "Premium ADR targeting 3-5BHK pool villas for weekend focus",
+            "Ro-Ro ferry access makes car-borne family stays convenient"
+        ],
+        "tagColor": "#007bff",
+        "statusColor": "#7c3aed"
+    }
+]

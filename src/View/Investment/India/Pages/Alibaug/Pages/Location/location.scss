@@ -1,242 +1,83 @@
-// land plot wrapper
-.land-plot-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-    margin-top: 1.5rem;
+.compliance-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    background-color: #ffffff;
 
-    .column-title {
+    .card-title {
+        font-size: 14px;
+        font-weight: 600;
         color: #1f2937;
-        font-size: 14px;
-        margin-bottom: 0.25rem;
+        margin-bottom: 12px;
     }
 
-    .land-plot-card {
-        display: flex;
-        align-items: flex-start;
-        gap: 0.6rem;
-        border-radius: 3px;
-        padding: 8px 12px;
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
 
-        .dot {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            flex-shrink: 0;
-            margin-top: 5px;
-        }
-
-        .title {
-            color: #111827;
-            font-size: 14px;
-        }
-
-        .description {
-            color: #4b5563;
+        li {
             font-size: 12px;
-            margin-top: 2px;
-        }
-    }
-}
+            margin-bottom: 8px;
+            padding-left: 12px;
+            position: relative;
 
-// PROCESS WRAPPER
-.process-wrapper {
-    .process-card {
-        display: flex;
-        align-items: flex-start;
-        gap: 0.6rem;
-        border-radius: 3px;
-        padding: 8px 12px;
-
-        .dot {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            flex-shrink: 0;
-            margin-top: 5px;
-        }
-
-        .title {
-            color: #111827;
-            font-size: 14px;
-        }
-
-        .description {
-            color: #4b5563;
-            font-size: 0.85rem;
-            margin-top: 2px;
-        }
-    }
-}
-
-// TIMELINE WRAPPER
-.timeline-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-
-    .timeline-card {
-        border: 1px solid #e5e7eb;
-        border-radius: 6px;
-        padding: 8px 12px;
-
-        .timeline-header {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            margin-bottom: 0.25rem;
-
-            .dot {
-                width: 8px;
-                height: 8px;
-                border-radius: 50%;
+            &::before {
+                content: "•";
+                position: absolute;
+                left: 0;
+                top: 0;
+                font-weight: bold;
             }
 
-            .title {
-                font-size: 14px;
-            }
-        }
-
-        .description {
-            font-size: 12px;
-            color: #374151;
-            margin-left: 16px;
-            margin-bottom: 0.25rem;
-        }
-
-        .timeline-points {
-            margin: 0;
-            margin-left: 16px;
-            list-style-type: disc;
-
-            li {
-                font-size: 0.85rem;
-                color: #1e3a8a;
-                line-height: 1.4;
-            }
-        }
-    }
-}
-
-// PROJECT HIGHLIGHTS WRAPPER
-.project-highlights-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-
-    .project-highlight {
-        border: 1px solid #e5e7eb;
-        border-radius: 6px;
-        background-color: #fff;
-        padding: 0.75rem 1rem;
-        transition: all 0.2s ease;
-
-        &:hover {
-            background-color: #f9fafb;
-        }
-
-        .title {
-            font-weight: 600;
-            color: #1e293b;
-            font-size: 0.95rem;
-            margin-bottom: 0.25rem;
-        }
-
-        .description {
-            font-size: 0.85rem;
-            color: #374151;
-            margin-bottom: 0.25rem;
-            line-height: 1.4;
-        }
-
-        .links {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-
-            a {
-                color: #2563eb;
-                font-size: 0.85rem;
-                text-decoration: none;
-
-                &:hover {
-                    text-decoration: underline;
+            &.text-blue {
+                &::before {
+                    color: #1f5dff;
                 }
             }
-        }
-    }
-}
 
-// START CARD
-.stat-card {
-    flex: 1;
-    min-width: 180px;
-    text-align: center;
-
-    .stat-value {
-        font-size: 24px;
-        color: #3b82f6;
-        margin-bottom: 8px;
-    }
-
-    .stat-title {
-        font-size: 14px;
-        color: #111827;
-    }
-
-    .stat-subtitle {
-        font-size: 12px;
-        color: #9ca3af;
-    }
-}
-
-// FEATURES WRAPPER
-.features-wrapper {
-    .features-card {
-        h3 {
-            color: #647488;
-            font-size: 16px;
-            margin-bottom: 10px;
-        }
-
-        .feature-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0.6rem 0;
-            border-bottom: 1px solid #e5e7eb;
-
-            .label {
-                color: #6b7280;
-                font-size: 0.95rem;
-            }
-
-            .value {
-                color: #374151;
-                text-align: right;
-                font-size: 0.95rem;
-
-                &.link {
-                    color: #3b82f6;
-                    cursor: pointer;
-
-                    &:hover {
-                        text-decoration: underline;
-                    }
+            &.text-red {
+                &::before {
+                    color: #fb2c36;
                 }
             }
+
+            &.text-green {
+                &::before {
+                    color: #00c951;
+                }
+            }
+
+            &.text-purple {
+                &::before {
+                    color: #ad46ff;
+                }
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
         }
     }
 }
 
-// MOBILE VIEW MEDIA QUERY
-@media screen and (max-width: 480px) {
-    .land-plot-wrapper {
-        display: block;
-        .column-title {
-            &.last {
-                margin-top: 20px;
-            }
-        }
+.compliance-footer {
+    background-color: #eff6ff;
+    border: 1px solid #dbeafe;
+    border-radius: 6px;
+    margin-top: 20px;
+    padding: 10px;
+
+    h3 {
+        font-size: 14px;
+        color: #1d4ed8;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
+    h5 {
+        font-size: 13px;
+        color: #1e40af;
+        line-height: 1.6;
+        margin: 0;
     }
 }

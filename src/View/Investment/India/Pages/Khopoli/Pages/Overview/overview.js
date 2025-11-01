@@ -1,10 +1,9 @@
 import React from "react";
 import "./overview.scss"
-import { Button, Card, Col, Row, Table } from "react-bootstrap";
-import growthIndicators from "../../../../../../../json/IndiaInvestment/Karjat/Overview/growth-indicators.json";
-import keyInvestmentFactors from "../../../../../../../json/IndiaInvestment/Karjat/Overview/key-investment-factors.json";
-import investmentCase from "../../../../../../../json/IndiaInvestment/Karjat/Overview/investment-case.json";
-import strategicAdvantages from "../../../../../../../json/IndiaInvestment/Karjat/Overview/strategic-advantages.json";
+import { Card, Col, Row, Table } from "react-bootstrap";
+import growthIndicators from "../../../../../../../json/IndiaInvestment/Khopoli/Overview/growth-indicators.json";
+import keyInvestmentFactors from "../../../../../../../json/IndiaInvestment/Khopoli/Overview/key-investment-factors.json";
+import uniqueSellingPoint from "../../../../../../../json/IndiaInvestment/Khopoli/Overview/unique-selling-points.json";
 
 export default function OverviewView() {
     return (
@@ -19,18 +18,18 @@ export default function OverviewView() {
                         <Table className="table w-100" responsive>
                             <thead>
                                 <tr>
-                                    <th>Drive Time:</th>
-                                    <th className="text-primary text-end">Key Distance:</th>
-                                    <th>Avg Villa Price:</th>
-                                    <th className="text-primary text-end">₹5,800/sqft</th>
+                                    <th>Connectivity:</th>
+                                    <th className="text-end">Expressway + Rail + Airport</th>
+                                    <th>Plot Range:</th>
+                                    <th className="text-primary text-end">₹1.8k - ₹4k/sqft</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Key Distance:</td>
-                                    <td className="text-end">Panvel 37-40 km</td>
-                                    <td>Plot Range:</td>
-                                    <td className="text-primary text-end">₹9.6L - ₹1.09Cr+</td>
+                                    <td>Location Type:</td>
+                                    <td className="text-end">Tri-city Strategic Hub</td>
+                                    <td>Villa Range:</td>
+                                    <td className="text-primary text-end">₹50L - ₹4Cr</td>
                                 </tr>
                             </tbody>
                         </Table>
@@ -48,47 +47,127 @@ export default function OverviewView() {
                                 <tr>
                                     <th>Current Status</th>
                                     <th></th>
-                                    <th>Timeline & Upcoming</th>
+                                    <th>Major Upcoming Projects</th>
                                     <th></th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>MTHL (Atal Setu):</td>
-                                    <td className="text-primary text-end">Operational</td>
-                                    <td>Rail Operations:</td>
-                                    <td className="text-primary text-end">Dec 2025</td>
+                                    <td>Mumbai-Pune Expressway:</td>
+                                    <td className="text-primary text-end">Direct Access</td>
+                                    <td>Missing Link Tunnel:</td>
+                                    <td className="text-primary text-end">2025 Completion</td>
                                 </tr>
 
                                 <tr>
-                                    <td>Panvel-Karjat Rail:</td>
-                                    <td className="text-end">67-70% Complete</td>
-                                    <td>NMIA Terminal-1:</td>
-                                    <td className="text-primary text-end">Oct 2025</td>
+                                    <td>Central Railway:</td>
+                                    <td className="text-primary text-end">Suburban Terminus</td>
+                                    <td>Time Savings:</td>
+                                    <td className="text-primary text-end">20-25 Minutes</td>
                                 </tr>
 
                                 <tr>
-                                    <td>Access Route:</td>
-                                    <td className="text-end">Sion-Panvel Expwy</td>
-                                    <td>MMC Rollout:</td>
-                                    <td className="text-end">2026+</td>
+                                    <td>Imagicaa Theme Park:</td>
+                                    <td className="text-end">Tourism Anchor</td>
+                                    <td>NMIA Access:</td>
+                                    <td className="text-primary text-end">2025 (~1 hr)</td>
                                 </tr>
 
                                 <tr>
-                                    <td>Market Type:</td>
-                                    <td className="text-end">Adventure Tourism Hub</td>
-                                    <td>Planning Framework:</td>
-                                    <td className="text-end">NAINA/CIDCO</td>
+                                    <td>Economic Base:</td>
+                                    <td className="text-end">Tourism-Industrial Hybrid</td>
+                                    <td>NeoLiv Projects:</td>
+                                    <td className="text-primary text-end">₹600Cr + ₹150Cr GDV</td>
                                 </tr>
 
                                 <tr>
                                     <td></td>
                                     <td className="text-end"></td>
                                     <td>Investment Grade:</td>
-                                    <td className="text-primary text-end">High Potential</td>
+                                    <td className="text-primary text-end">Emerging Growth Hub</td>
                                 </tr>
                             </tbody>
                         </Table>
+                    </Card.Body>
+                </Card>
+
+                {/* LOCATION & ECONOMIC PROFILE */}
+                <Card className="card-one h-auto overview-view-common">
+                    <Card.Header>
+                        <Card.Title className="fs-14 mb-0">Location & Economic Profile</Card.Title>
+                    </Card.Header>
+                    <Card.Body>
+                        <Table className="table w-100" responsive>
+                            <thead>
+                                <tr>
+                                    <th>Geographic & Climate</th>
+                                    <th></th>
+                                    <th>Economic Foundation</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Location:</td>
+                                    <td className="text-success text-end">Sahyadri Foothills</td>
+                                    <td>Industrial Base:</td>
+                                    <td className="text-primary text-end">MIDC Hub Established</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Climate:</td>
+                                    <td className="text-primary text-end">Hill Station Adjacent</td>
+                                    <td>Tourism Anchor:</td>
+                                    <td className="text-primary text-end">Imagicaa Theme Park</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Natural Assets:</td>
+                                    <td className="text-success text-end">Waterfalls & Trekking</td>
+                                    <td>Employment:</td>
+                                    <td className="text-dark text-end">Logistics + Hospitality</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Tourism Type:</td>
+                                    <td className="text-end">Weekend & Monsoon</td>
+                                    <td>Market Type:</td>
+                                    <td className="text-end" style={{ color: "#f54a00" }}>Mixed-Use Growth Hub</td>
+                                </tr>
+                            </tbody>
+                        </Table>
+
+                        {/* INVESTMENT BENEFITS SECTION */}
+                        <div className="investment-benefits-section">
+                            {[
+                                {
+                                    title: "Strategic Investment Benefits",
+                                    items: [
+                                        [
+                                            "40-50% lower entry cost vs. Lonavala pricing",
+                                            "Dual economy ensures year-round demand stability",
+                                        ],
+                                        [
+                                            "Same infrastructure catalysts as premium locations",
+                                            "Tourism anchor creates immediate rental opportunities",
+                                        ],
+                                    ],
+                                }
+                            ].map((benefit, index) => (
+                                <div key={index} className="benefit-block">
+                                    <h4>{benefit.title}</h4>
+                                    <div className="benefit-list">
+                                        {benefit.items.map((column, colIndex) => (
+                                            <ul key={colIndex}>
+                                                {column.map((item, i) => (
+                                                    <li key={i}>{item}</li>
+                                                ))}
+                                            </ul>
+                                        ))}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
                     </Card.Body>
                 </Card>
 
@@ -97,10 +176,11 @@ export default function OverviewView() {
                     <Card.Body>
                         <h3 className="fs-16 mb-2">Market Description</h3>
                         <p className="fs-12">
-                            Karjat represents Maharashtra's premier adventure tourism destination with significant infrastructure developments underway.
-                            The Mumbai Trans Harbour Link (Atal Setu) opened January 2024, while the Panvel-Karjat suburban rail corridor (67-70% complete)
-                            targets December 2025 operations. Proximity to the upcoming Navi Mumbai International Airport (Terminal-1 opening October 2025)
-                            positions Karjat as a strategic investment location within the Mumbai Metropolitan Region's growth corridor.
+                            Khopoli, once known primarily as an industrial town along the foothills of the Sahyadris, is rapidly transforming into a mixed-use growth hub.
+                            With mega infrastructure catalysts, rising demand for affordable second homes, weekend tourism, and strong industrial-commercial underpinnings,
+                            Khopoli is poised to emerge as the investment gateway between Mumbai, Pune, and Lonavala. Whether it's land banking, affordable gated communities,
+                            or strategically located plots near upcoming infra — Khopoli offers a rare blend of ROI, growth safety,
+                            and affordability that few locations can match today.
                         </p>
                     </Card.Body>
                 </Card>
@@ -143,38 +223,14 @@ export default function OverviewView() {
                     </Card.Body>
                 </Card>
 
-                {/* WHY KARJAT - THE INVESTMENT CASE */}
-                <Card className="card-one h-auto overview-view-common">
-                    <Card.Header>
-                        <Card.Title className="fs-14 mb-0">Why Karjat - The Investment Case</Card.Title>
-                    </Card.Header>
-                    <Card.Body>
-                        {investmentCase.map((section, index) => (
-                            <div key={index} className="key-investment-factors mb-3">
-                                <h5>{index + 1}. {section.category}</h5>
-                                <Row>
-                                    {section.items.map((item, idx) => (
-                                        <Col md={12} key={idx}>
-                                            <div className={`product-wrapper tag-${item.tag}`}>
-                                                <span className={`investment-factors-symbol align-middle tag-${item.tag}`}></span>
-                                                <span className="align-middle">{item.name}</span>
-                                            </div>
-                                        </Col>
-                                    ))}
-                                </Row>
-                            </div>
-                        ))}
-                    </Card.Body>
-                </Card>
-
                 {/* WHY DUBAI - INVESTMENT CASE */}
-                <Card className="card-one h-auto overview-view-common">
+                <Card className="card-one h-auto overview-view-common mb-0">
                     <Card.Header>
-                        <Card.Title className="fs-14 mb-0">Strategic Advantages</Card.Title>
+                        <Card.Title className="fs-14 mb-0">Unique Selling Points</Card.Title>
                     </Card.Header>
                     <Card.Body>
                         <Row className="g-3">
-                            {strategicAdvantages.map((item, index) => (
+                            {uniqueSellingPoint.map((item, index) => (
                                 <Col md={6} key={index}>
                                     <div className="product-wrapper fs-14 p-2" style={{ backgroundColor: "#f4f7ff" }}>
                                         <i className="ri-star-s-line align-middle text-primary"></i> <span className="align-middle">{item?.name}</span>
@@ -184,66 +240,6 @@ export default function OverviewView() {
                         </Row>
                     </Card.Body>
                 </Card>
-
-                {/* ENVIREMENT */}
-                <Card className="card-one h-auto overview-view-common">
-                    <Card.Header>
-                        <Card.Title className="fs-14 mb-0">Frequently Asked Questions</Card.Title>
-                    </Card.Header>
-                    <Card.Body>
-                        <ul className="frequently-asked-questions">
-                            {[
-                                {
-                                    "name": "Is Karjat just a monsoon spot or year-round?",
-                                    "des": "Year-round destination. Connectivity improving via Panvel-Karjat rail and NMIA airport, with MTHL already easing Mumbai ↔ Navi Mumbai travel."
-                                },
-                                {
-                                    "name": "Will NMIA actually open?",
-                                    "des": "DGCA aerodrome licence is issued; Terminal-1 opening targeted for Oct 2025 with airlines staging phased ramps."
-                                },
-                                {
-                                    "name": "How do I verify a project?",
-                                    "des": "Check MahaRERA (project/agent numbers), NA order, layout/building permissions, and scan quarterly updates on official portal."
-                                },
-                                {
-                                    "name": "What's the current market pricing?",
-                                    "des": "Apartments avg ₹4,700-₹4,800/sqft; villas avg ₹5,800/sqft. Plot ticket sizes range ₹9.6L to ₹1.09Cr+ depending on size, access & title."
-                                }
-                            ].map((item, index) => (
-                                <li key={index}>
-                                    <h4 className="fs-14 mb-1">{item.name}</h4>
-                                    <h6 className="fs-12 text-gra">{item.des}</h6>
-                                </li>
-                            ))}
-                        </ul>
-                    </Card.Body>
-                </Card>
-
-                {/* READY TO INVEST IN KARJAT */}
-                <div className="ready-to-invest-location">
-                    <div className="ready-to-invest-header">
-                        <h3>Ready to Invest in Karjat?</h3>
-                        <p>
-                            Get comprehensive legal pack: 7/12, FERFAR/e-mutation, title search, NA order, layout approvals, RERA docs, encumbrance report,
-                            and site access affidavit.
-                        </p>
-                    </div>
-
-                    <div className="ready-to-invest-bttn">
-                        <Button variant="primary" className="d-flex gap-1 align-items-center">
-                            <i className="ri-phone-line align-middle"></i>
-                            <span className="align-middle">Contact Karjat Expert</span>
-                        </Button>
-                        <Button variant="outline-secondary" className="d-flex gap-1 align-items-center">
-                            <i className="ri-calendar-line align-middle"></i>
-                            <span className="align-middle">Schedule Site Visit</span>
-                        </Button>
-                        <Button variant="outline-secondary" className="d-flex gap-1 align-items-center">
-                            <i className="ri-share-line align-middle"></i>
-                            <span className="align-middle">Share This Page</span>
-                        </Button>
-                    </div>
-                </div>
             </div>
         </React.Fragment>
     )

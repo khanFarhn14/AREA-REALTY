@@ -253,7 +253,7 @@ export default function Location() {
                     </Card.Body>
                 </Card>
 
-                   {/* COMPREHENSIVE ENVIRONMENTAL PROFILE */}
+                {/* COMPREHENSIVE ENVIRONMENTAL PROFILE */}
                 <Card className="card-one h-auto overview-view-common">
                     <Card.Header>
                         <Card.Title className="fs-14 mb-0">Comprehensive Environmental Profile</Card.Title>
@@ -280,7 +280,7 @@ export default function Location() {
                                     <td className="text-end text-success">Growing Sector</td>
                                 </tr>
 
-                                 <tr>
+                                <tr>
                                     <td>PM2.5 Levels:</td>
                                     <td className="text-end text-success">15-25 μg/m³</td>
                                     <td>Winter Low:</td>
@@ -289,16 +289,16 @@ export default function Location() {
                                     <td className="text-end text-primary">High Premium</td>
                                 </tr>
 
-                                 <tr>
+                                <tr>
                                     <td>Industrial Pollution:</td>
                                     <td className="text-end text-success">Minimal</td>
                                     <td>Monsoon Peak:</td>
                                     <td className="text-end text-primary">June-September</td>
                                     <td>Season Extension:</td>
-                                    <td className="text-end" style={{color: "#9810fa"}}>Year-round Appeal</td>
+                                    <td className="text-end" style={{ color: "#9810fa" }}>Year-round Appeal</td>
                                 </tr>
 
-                                 <tr>
+                                <tr>
                                     <td>Air Quality Rank:</td>
                                     <td className="text-end text-primary">Top 10% in Maharashtra</td>
                                     <td>Pleasant Days:</td>

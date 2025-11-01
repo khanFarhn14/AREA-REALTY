@@ -1,6 +1,10 @@
 import React from "react";
 import bgImage from "../../../../../assets/img/location/khopoli-heading.png";
 import { Container, Nav, Tab } from "react-bootstrap";
+import OverviewView from "./Pages/Overview/overview";
+import PropertyView from "./Pages/Property/property";
+import Investments from "./Pages/Investments/investments";
+import Location from "./Pages/Location/location";
 
 export default function InvestmentsKhopoli() {
     return (
@@ -17,11 +21,11 @@ export default function InvestmentsKhopoli() {
                 </Container>
             </div>
 
-             <section className="investment-explore-section">
+            <section className="investment-explore-section">
                 <Container>
                     <div className="section-title" data-aos="fade-up" data-aos-delay="300">
-                        <h3>Khopoli</h3>
-                        <p>Gateway to the Western Ghats with stunning waterfalls and scenic hill station charm</p>
+                        <h3>Khopoli Investment Profile</h3>
+                        <p>Comprehensive market insights and investment data</p>
                     </div>
 
                     <Tab.Container id="left-tabs-example" defaultActiveKey="overview_tab" data-aos="fade-up" data-aos-delay="500">
@@ -36,7 +40,20 @@ export default function InvestmentsKhopoli() {
                             </div>
 
                             <div className="explore-tabs-content">
-                             
+                                <Tab.Content>
+                                    <Tab.Pane eventKey="overview_tab">
+                                        <OverviewView />
+                                    </Tab.Pane>
+                                    <Tab.Pane eventKey="properties_tab">
+                                        <PropertyView />
+                                    </Tab.Pane>
+                                    <Tab.Pane eventKey="investments_tab">
+                                        <Investments />
+                                    </Tab.Pane>
+                                    <Tab.Pane eventKey="location_tab">
+                                        <Location />
+                                    </Tab.Pane>
+                                </Tab.Content>
                             </div>
                         </div>
                     </Tab.Container>

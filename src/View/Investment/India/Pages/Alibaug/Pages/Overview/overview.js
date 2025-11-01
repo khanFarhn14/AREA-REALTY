@@ -1,10 +1,9 @@
 import React from "react";
 import "./overview.scss"
-import { Button, Card, Col, Row, Table } from "react-bootstrap";
-import growthIndicators from "../../../../../../../json/IndiaInvestment/Karjat/Overview/growth-indicators.json";
-import keyInvestmentFactors from "../../../../../../../json/IndiaInvestment/Karjat/Overview/key-investment-factors.json";
-import investmentCase from "../../../../../../../json/IndiaInvestment/Karjat/Overview/investment-case.json";
-import strategicAdvantages from "../../../../../../../json/IndiaInvestment/Karjat/Overview/strategic-advantages.json";
+import { Card, Col, Row, Table } from "react-bootstrap";
+import growthIndicators from "../../../../../../../json/IndiaInvestment/Alibaug/Overview/growth-indicators.json";
+import keyInvestmentFactors from "../../../../../../../json/IndiaInvestment/Alibaug/Overview/key-investment-factors.json";
+import strategicAdvantages from "../../../../../../../json/IndiaInvestment/Alibaug/Overview/strategic-advantages.json";
 
 export default function OverviewView() {
     return (
@@ -19,25 +18,25 @@ export default function OverviewView() {
                         <Table className="table w-100" responsive>
                             <thead>
                                 <tr>
-                                    <th>Drive Time:</th>
-                                    <th className="text-primary text-end">Key Distance:</th>
-                                    <th>Avg Villa Price:</th>
-                                    <th className="text-primary text-end">₹5,800/sqft</th>
+                                    <th>Access Time:</th>
+                                    <th className="text-end">Mumbai ~1.5 hrs total</th>
+                                    <th>Villa Price Range:</th>
+                                    <th className="text-primary text-end">₹1.25Cr - ₹15Cr+</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Key Distance:</td>
-                                    <td className="text-end">Panvel 37-40 km</td>
-                                    <td>Plot Range:</td>
-                                    <td className="text-primary text-end">₹9.6L - ₹1.09Cr+</td>
+                                    <td>Ferry Route:</td>
+                                    <td className="text-end">64 km via expressway</td>
+                                    <td>Plot Rate Range:</td>
+                                    <td className="text-primary text-end">₹1k - ₹15k/sqft</td>
                                 </tr>
                             </tbody>
                         </Table>
                     </Card.Body>
                 </Card>
 
-                {/* INFRASTRUCTURE & GCONNECTIVITY */}
+                {/* INFRASTRUCTURE & CONNECTIVITY */}
                 <Card className="card-one h-auto overview-view-common">
                     <Card.Header>
                         <Card.Title className="fs-14 mb-0">Infrastructure & Connectivity</Card.Title>
@@ -48,47 +47,127 @@ export default function OverviewView() {
                                 <tr>
                                     <th>Current Status</th>
                                     <th></th>
-                                    <th>Timeline & Upcoming</th>
+                                    <th>Major Upcoming Projects</th>
                                     <th></th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>MTHL (Atal Setu):</td>
+                                    <td>Atal Setu (MTHL):</td>
                                     <td className="text-primary text-end">Operational</td>
-                                    <td>Rail Operations:</td>
-                                    <td className="text-primary text-end">Dec 2025</td>
-                                </tr>
-
-                                <tr>
-                                    <td>Panvel-Karjat Rail:</td>
-                                    <td className="text-end">67-70% Complete</td>
                                     <td>NMIA Terminal-1:</td>
                                     <td className="text-primary text-end">Oct 2025</td>
                                 </tr>
 
                                 <tr>
-                                    <td>Access Route:</td>
-                                    <td className="text-end">Sion-Panvel Expwy</td>
-                                    <td>MMC Rollout:</td>
-                                    <td className="text-end">2026+</td>
+                                    <td>Ro-Ro Ferry Service:</td>
+                                    <td className="text-primary text-end">Multiple Daily</td>
+                                    <td>Airlines Status:</td>
+                                    <td className="text-primary text-end">Lining Up Schedules</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Ferry Duration:</td>
+                                    <td className="text-end">~1 hr pier-to-pier</td>
+                                    <td>Access Impact:</td>
+                                    <td className="text-end">Demand Accelerator</td>
                                 </tr>
 
                                 <tr>
                                     <td>Market Type:</td>
-                                    <td className="text-end">Adventure Tourism Hub</td>
-                                    <td>Planning Framework:</td>
-                                    <td className="text-end">NAINA/CIDCO</td>
+                                    <td className="text-end">Luxury Coastal Investment</td>
+                                    <td>Institutional Activity:</td>
+                                    <td className="text-primary text-end">Peninsula Land Acquisition</td>
                                 </tr>
 
                                 <tr>
                                     <td></td>
                                     <td className="text-end"></td>
                                     <td>Investment Grade:</td>
-                                    <td className="text-primary text-end">High Potential</td>
+                                    <td className="text-primary text-end">Medium-term Compelling</td>
                                 </tr>
                             </tbody>
                         </Table>
+                    </Card.Body>
+                </Card>
+
+                {/* ENVIRONMENTAL & CLIMATE PROFILE */}
+                <Card className="card-one h-auto overview-view-common">
+                    <Card.Header>
+                        <Card.Title className="fs-14 mb-0">Environmental & Climate Profile</Card.Title>
+                    </Card.Header>
+                    <Card.Body>
+                        <Table className="table w-100" responsive>
+                            <thead>
+                                <tr>
+                                    <th>Air Quality & Environment</th>
+                                    <th></th>
+                                    <th>Climate & Geography</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>AQI Status:</td>
+                                    <td className="text-success text-end">Good/Moderate</td>
+                                    <td>Climate Type:</td>
+                                    <td className="text-primary text-end">Tropical Coastal</td>
+                                </tr>
+
+                                <tr>
+                                    <td>PM2.5 Levels:</td>
+                                    <td className="text-success text-end">15-16 μg/m³</td>
+                                    <td>Sea Breeze:</td>
+                                    <td className="text-primary text-end">Consistent Year-round</td>
+                                </tr>
+
+                                <tr>
+                                    <td>vs Mumbai Core:</td>
+                                    <td className="text-success text-end">Materially Cleaner</td>
+                                    <td>Best Season:</td>
+                                    <td className="text-end">Oct - March</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Location Type:</td>
+                                    <td className="text-end">Sea level coastal</td>
+                                    <td>Supply Constraint:</td>
+                                    <td className="text-end" style={{color: "#f54a00"}}>CRZ-Limited Plots</td>
+                                </tr>
+                            </tbody>
+                        </Table>
+
+                        {/* INVESTMENT BENEFITS SECTION */}
+                        <div className="investment-benefits-section">
+                            {[
+                                {
+                                    title: "Investment Environmental Benefits",
+                                    items: [
+                                        [
+                                            "Coastal air quality materially better than Mumbai",
+                                            "Sea breeze provides natural cooling and wellness",
+                                        ],
+                                        [
+                                            "Outdoor living value tangible for rental appeal",
+                                            "Weekend tourism drives consistent rental demand",
+                                        ],
+                                    ],
+                                }
+                            ].map((benefit, index) => (
+                                <div key={index} className="benefit-block">
+                                    <h4>{benefit.title}</h4>
+                                    <div className="benefit-list">
+                                        {benefit.items.map((column, colIndex) => (
+                                            <ul key={colIndex}>
+                                                {column.map((item, i) => (
+                                                    <li key={i}>{item}</li>
+                                                ))}
+                                            </ul>
+                                        ))}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
                     </Card.Body>
                 </Card>
 
@@ -97,10 +176,10 @@ export default function OverviewView() {
                     <Card.Body>
                         <h3 className="fs-16 mb-2">Market Description</h3>
                         <p className="fs-12">
-                            Karjat represents Maharashtra's premier adventure tourism destination with significant infrastructure developments underway.
-                            The Mumbai Trans Harbour Link (Atal Setu) opened January 2024, while the Panvel-Karjat suburban rail corridor (67-70% complete)
-                            targets December 2025 operations. Proximity to the upcoming Navi Mumbai International Airport (Terminal-1 opening October 2025)
-                            positions Karjat as a strategic investment location within the Mumbai Metropolitan Region's growth corridor.
+                            South Mumbai's Atal Setu (MTHL) is open, Ro-Ro ferries are frequent, and Navi Mumbai International Airport (NMIA) has its DGCA 
+                            aerodrome licence with Terminal-1 targeted to open in Oct '25. Access + brand + limited coastal supply = a compelling medium-term investment case. 
+                            Alibaug represents Mumbai's luxury coastal investment corridor with established hospitality ecosystem, 
+                            celebrity endorsement cementing aspirational status, and natural supply constraints driving premium valuations.
                         </p>
                     </Card.Body>
                 </Card>
@@ -143,31 +222,8 @@ export default function OverviewView() {
                     </Card.Body>
                 </Card>
 
-                {/* WHY KARJAT - THE INVESTMENT CASE */}
-                <Card className="card-one h-auto overview-view-common">
-                    <Card.Header>
-                        <Card.Title className="fs-14 mb-0">Why Karjat - The Investment Case</Card.Title>
-                    </Card.Header>
-                    <Card.Body>
-                        {investmentCase.map((section, index) => (
-                            <div key={index} className="key-investment-factors mb-3">
-                                <h5>{index + 1}. {section.category}</h5>
-                                <Row>
-                                    {section.items.map((item, idx) => (
-                                        <Col md={12} key={idx}>
-                                            <div className={`product-wrapper tag-${item.tag}`}>
-                                                <span className={`investment-factors-symbol align-middle tag-${item.tag}`}></span>
-                                                <span className="align-middle">{item.name}</span>
-                                            </div>
-                                        </Col>
-                                    ))}
-                                </Row>
-                            </div>
-                        ))}
-                    </Card.Body>
-                </Card>
-
-                {/* WHY DUBAI - INVESTMENT CASE */}
+              
+                {/* WHY LONAVALA - INVESTMENT CASE */}
                 <Card className="card-one h-auto overview-view-common">
                     <Card.Header>
                         <Card.Title className="fs-14 mb-0">Strategic Advantages</Card.Title>
@@ -185,65 +241,6 @@ export default function OverviewView() {
                     </Card.Body>
                 </Card>
 
-                {/* ENVIREMENT */}
-                <Card className="card-one h-auto overview-view-common">
-                    <Card.Header>
-                        <Card.Title className="fs-14 mb-0">Frequently Asked Questions</Card.Title>
-                    </Card.Header>
-                    <Card.Body>
-                        <ul className="frequently-asked-questions">
-                            {[
-                                {
-                                    "name": "Is Karjat just a monsoon spot or year-round?",
-                                    "des": "Year-round destination. Connectivity improving via Panvel-Karjat rail and NMIA airport, with MTHL already easing Mumbai ↔ Navi Mumbai travel."
-                                },
-                                {
-                                    "name": "Will NMIA actually open?",
-                                    "des": "DGCA aerodrome licence is issued; Terminal-1 opening targeted for Oct 2025 with airlines staging phased ramps."
-                                },
-                                {
-                                    "name": "How do I verify a project?",
-                                    "des": "Check MahaRERA (project/agent numbers), NA order, layout/building permissions, and scan quarterly updates on official portal."
-                                },
-                                {
-                                    "name": "What's the current market pricing?",
-                                    "des": "Apartments avg ₹4,700-₹4,800/sqft; villas avg ₹5,800/sqft. Plot ticket sizes range ₹9.6L to ₹1.09Cr+ depending on size, access & title."
-                                }
-                            ].map((item, index) => (
-                                <li key={index}>
-                                    <h4 className="fs-14 mb-1">{item.name}</h4>
-                                    <h6 className="fs-12 text-gra">{item.des}</h6>
-                                </li>
-                            ))}
-                        </ul>
-                    </Card.Body>
-                </Card>
-
-                {/* READY TO INVEST IN KARJAT */}
-                <div className="ready-to-invest-location">
-                    <div className="ready-to-invest-header">
-                        <h3>Ready to Invest in Karjat?</h3>
-                        <p>
-                            Get comprehensive legal pack: 7/12, FERFAR/e-mutation, title search, NA order, layout approvals, RERA docs, encumbrance report,
-                            and site access affidavit.
-                        </p>
-                    </div>
-
-                    <div className="ready-to-invest-bttn">
-                        <Button variant="primary" className="d-flex gap-1 align-items-center">
-                            <i className="ri-phone-line align-middle"></i>
-                            <span className="align-middle">Contact Karjat Expert</span>
-                        </Button>
-                        <Button variant="outline-secondary" className="d-flex gap-1 align-items-center">
-                            <i className="ri-calendar-line align-middle"></i>
-                            <span className="align-middle">Schedule Site Visit</span>
-                        </Button>
-                        <Button variant="outline-secondary" className="d-flex gap-1 align-items-center">
-                            <i className="ri-share-line align-middle"></i>
-                            <span className="align-middle">Share This Page</span>
-                        </Button>
-                    </div>
-                </div>
             </div>
         </React.Fragment>
     )

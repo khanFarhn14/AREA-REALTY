@@ -1,0 +1,66 @@
+[
+    {
+        "id": "#01",
+        "status": "Available",
+        "title": "NA Plots (Expressway Adjacent)",
+        "price": "₹20L - ₹50L",
+        "features": [
+            "Best entry point for flexible investment strategy",
+            "Build later, resell, or develop for rental income",
+            "Strategic positioning near Expressway and Imagicaa nodes",
+            "Clear NA conversion documentation and title verification",
+            "Future appreciation play with infrastructure catalyst exposure",
+            "Suitable for patient investors with 5-7 year horizon"
+        ],
+        "tagColor": "#1a73e8",
+        "statusColor": "#16a34a"
+    },
+    {
+        "id": "#02",
+        "status": "Limited",
+        "title": "Affordable Villas & Gated Communities",
+        "price": "₹50L - ₹1.2Cr",
+        "features": [
+            "Affordable second homes vs. Lonavala premium pricing",
+            "Suited for middle-class end-users and rental income seekers",
+            "Weekend villa rental potential ₹8,000-₹18,000/night",
+            "Gated community amenities with managed services",
+            "Direct connectivity to Mumbai-Pune via Expressway access",
+            "Family-friendly tourism environment with Imagicaa proximity"
+        ],
+        "tagColor": "#6c63ff",
+        "statusColor": "#f97316"
+    },
+    {
+        "id": "#03",
+        "status": "Select Parcels",
+        "title": "Hospitality-Linked Investment Villas",
+        "price": "₹1.2Cr - ₹4Cr",
+        "features": [
+            "Villas near Imagicaa & Expressway nodes for Airbnb/managed rentals",
+            "Hybrid 'resort homes' concept gaining market traction",
+            "Pool into professional rental management programs",
+            "Strong seasonal demand from Mumbai-Pune weekend traffic",
+            "Premium locations with tourism anchor proximity",
+            "Homestay licensing and hospitality ecosystem integration"
+        ],
+        "tagColor": "#8b5cf6",
+        "statusColor": "#8b5cf6"
+    },
+    {
+        "id": "#04",
+        "status": "Premium Select",
+        "title": "Land Banking (Agricultural to Development)",
+        "price": "₹15L - ₹45L",
+        "features": [
+            "Large agricultural tracts on outskirts with 7-10 year horizon",
+            "Patient investors betting on NMIA-driven appreciation cycle",
+            "Future rezoning potential with infrastructure development",
+            "Lower acquisition cost with significant development upside",
+            "Revenue-record verification and clear title documentation",
+            "Strategic positioning for future township/mixed-use development"
+        ],
+        "tagColor": "#007bff",
+        "statusColor": "#7c3aed"
+    }
+]

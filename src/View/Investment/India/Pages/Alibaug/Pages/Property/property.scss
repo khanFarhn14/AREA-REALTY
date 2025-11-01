@@ -1,82 +1,129 @@
-// PROPERTY CARD
-.property-card {
-    overflow: hidden;
+.property-listing-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(520px, 1fr));
+    gap: 20px;
 
-    &:hover {
-        .property-image-wrapper {
-            .property-image {
-                transform: scale(1.05);
-            }
-        }
-    }
-
-    .property-image-wrapper {
+    .property-card {
+        background: #fff;
+        border: 1px solid #e5e7eb;
+        border-radius: 6px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
         position: relative;
-        overflow: hidden;
-        height: 220px;
 
-        .property-image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.4s ease;
-        }
+        .property-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
 
-        .property-title-overlay {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.7));
-            color: #fff;
-            padding: 12px 16px;
-
-            h5 {
-                font-size: 20px;
+            .property-badge {
+                font-size: 12px;
+                color: #ffffff;
+                padding: 3px 8px;
+                border-radius: 4px;
                 font-weight: 600;
-                margin: 0;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+            }
+
+            .property-id {
+                font-size: 12px;
+                color: #6b7280;
+                font-weight: 500;
             }
         }
-    }
 
-    .property-footer {
-        border-top: 1px solid #eee;
-        padding: 12px 16px;
-
-        .btn {
+        .property-title {
             font-size: 14px;
-            padding: 6px 14px;
+            color: #1f2937;
+            font-weight: 600;
+            margin-bottom: 4px;
         }
 
-        .share-icon {
-            font-size: 18px;
-            color: #555;
-            cursor: pointer;
-            transition: color 0.3s;
+        .property-price {
+            font-size: 14px;
+            color: #2563eb;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
 
-            &:hover {
-                color: #007bff;
+        .property-feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 16px 0;
+
+            li {
+                font-size: 13px;
+                color: #374151;
+                margin-bottom: 6px;
+                padding-left: 12px;
+                position: relative;
+                line-height: 1.6;
+
+                &::before {
+                    content: "•";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    color: #2563eb;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .property-status {
+            align-self: flex-end;
+            border: 1px solid;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+            background: #f9fafb;
+        }
+    }
+}
+
+// 
+.location-highlights {
+    border-radius: 6px;
+
+    .highlight-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            font-size: 14px;
+            margin-bottom: 10px;
+            padding-left: 10px;
+            position: relative;
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            &::before {
+                content: "•";
+                position: absolute;
+                left: 0;
+                top: 0;
+                color: #2563eb; // blue bullet
+                font-weight: bold;
             }
         }
     }
 }
 
-// SUMMARY CARD
-.summary-card {
-    text-align: center;
-    h4 {
-        color: #1f5dff;
-        font-size: 18px;
-        margin-bottom: 5px;
+// MOBILE VIEW MEDIA QUERY
+@media screen and (max-width: 480px) {
+    .property-listing-section {
+        display: block;
+        .property-card {
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
     }
-
-    h5,
-    h6 {
-        color: #101828;
-        font-size: 12px;
-    }
-
-     h6 {
-        color: #4a5565;
-     }
 }

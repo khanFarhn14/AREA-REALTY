@@ -1,162 +1,55 @@
-.overview-wrapper {
-    .overview-view-common {
-        margin-bottom: 24px;
+.investment-benefits-section {
+  background-color: #f2fbf4;
+  padding: 16px 24px;
+  border-radius: 6px;
+  font-family: "Inter", sans-serif;
+
+  .benefit-block {
+    h4 {
+      font-size: 14px;
+      font-weight: 500;
+      color: #2c2c2c;
+      margin-bottom: 8px;
     }
 
-    // TABLE
-    table {
+    .benefit-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
 
-        thead,
-        tbody {
-            tr {
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
 
-                th,
-                td {
-                    font-size: 14px;
-                }
-            }
+        li {
+          position: relative;
+          color: #0f9d58;
+          font-size: 13px;
+          line-height: 1.8;
+          padding-left: 14px;
+
+          &::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #0f9d58;
+            font-weight: bold;
+          }
         }
+      }
     }
+  }
+}
 
-    // INVESTMENT CASE WRAPPER
-    .investment-case-wrapper {
-        margin-bottom: 1.5rem;
-
-        &:last-child {
-            margin-bottom: 0;
-        }
-
-        .alert {
-            padding: 5px 10px;
-            border-radius: 0;
-            border: 0;
-            font-size: 12px;
-
-            &:last-child {
-                margin-bottom: 0;
-            }
-
-            .badge {
-                width: 8px;
-                height: 8px;
-                display: inline-block;
-                border-radius: 50%;
-                padding: 0;
-                margin-right: 5px;
-            }
-        }
-
+// MOBILE VIEW MEDIA QUERY
+@media screen and (max-width: 480px) {
+  .investment-benefits-section {
+    .benefit-block {
+      .benefit-list {
+        display: block;
+      }
     }
-
-    // ENVIREMENT WRAPPER
-    .environment-wrapper {
-        display: flex;
-        gap: 10px;
-        align-items: center;
-
-        .environment-icon {
-            width: 50px;
-            height: 50px;
-            display: flex;
-            color: #1f5dff;
-            align-items: center;
-            justify-content: center;
-            background-color: #e8eeff;
-            border-radius: 3px;
-
-            i {
-                font-size: 24px;
-            }
-        }
-    }
-
-    // KEY INVESTMENT
-    .key-investment-factors {
-        margin-top: 1rem;
-
-        h5 {
-            font-weight: 500;
-            margin-bottom: 10px;
-            color: #222;
-            font-size: 14px;
-        }
-
-        .product-wrapper {
-            display: flex;
-            align-items: center;
-            margin-bottom: 6px;
-            padding: 5px 10px;
-            font-size: 12px;
-            font-weight: 400;
-
-            .investment-factors-symbol {
-                width: 8px;
-                height: 8px;
-                margin-right: 5px;
-                background-color: #1e73e8;
-                border-radius: 50%;
-                &.tag-green {
-                    background-color: #00c951;
-                }
-                &.tag-blue {
-                    background-color: #2b7fff;
-                }
-                &.tag-orange {
-                    background-color: #ff6900;
-                }
-                &.tag-purple {
-                    background-color: #ad46ff;
-                }
-                &.tag-gray {
-                    background-color: #6a7282;
-                }
-            }
-
-            span {
-                line-height: 1.5;
-                color: #333;
-            }
-        }
-
-        // Color variants based on category type
-        .tag-green {
-            background-color: #f0fdf4;
-
-            i {
-                color: #25b865;
-            }
-        }
-
-        .tag-blue {
-            background-color: #eff6ff;
-
-            i {
-                color: #1e73e8;
-            }
-        }
-
-        .tag-orange {
-            background-color: #fff7ed;
-
-            i {
-                color: #f57c00;
-            }
-        }
-
-        .tag-purple {
-            background-color: #faf5ff;
-
-            i {
-                color: #8a56e2;
-            }
-        }
-
-        .tag-gray {
-            background-color: #fbf9fa;
-
-            i {
-                color: #5e6c84;
-            }
-        }
-    }
+  }
 }
