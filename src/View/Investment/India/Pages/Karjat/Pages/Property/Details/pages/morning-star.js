@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import pageTitleImg from "../../../../../../../../../assets/img/location/karjat/morning-star.png";
 import { Button, ButtonGroup, Card, Col, Container, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import gallery1 from "../../../../../../../../../assets/img/location/details/gallery1.png";
-import gallery2 from "../../../../../../../../../assets/img/location/details/gallery2.png";
+import gallery1 from "../../../../../../../../../assets/img/location/details/morning-star/gallery1.png";
+import gallery2 from "../../../../../../../../../assets/img/location/details/morning-star/gallery2.png";
 import Slider from "react-slick";
 
 export default function MorningStar() {
@@ -276,11 +276,10 @@ export default function MorningStar() {
                                         ))}
                                     </div>
 
-                                    <p className="villa-extra">{villa.extraCharges}</p>
-
-                                    <div className={`villa-status ${villa.statusColor}`}>
-                                        {villa.status}
-                                    </div>
+                                   <div className="d-flex align-items-center justify-content-between mt-3">
+                                     <p className="villa-extra w-60">{villa.extraCharges}</p>
+                                    <div className={`villa-status ${villa.statusColor}`}>{villa.status}</div>
+                                   </div>
                                 </div>
                             ))}
                         </div>
