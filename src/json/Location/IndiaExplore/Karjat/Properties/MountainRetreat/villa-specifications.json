@@ -1,0 +1,114 @@
+[
+    {
+        "title": "4 BHK Premium Villa with Private Pool",
+        "beds": 4,
+        "baths": 4,
+        "price": "₹2.65 Cr",
+        "pricePerSqFt": "₹9,143/sq.ft.",
+        "reraCarpet": "2160 sq.ft.",
+        "usableArea": "2700 sq.ft.",
+        "builtUp": "2900 sq.ft.",
+        "plotSize": "5000 sq.ft.",
+        "features": [ "Private Swimming Pool", "Spacious Balconies", "Landscaped Outdoor Areas", "Mountain Views"],
+        "extraCharges": "5% Stamp Duty + 5% GST + 1% Registration",
+        "status": "Limited Units",
+        "statusColor": "orange",
+        "amenityGroups": [
+            {
+                "title": "Lifestyle & Wellness",
+                "items": [
+                    {
+                        "icon": "🏋️‍♀️",
+                        "name": "Clubhouse & Gym",
+                        "desc": "Space for fitness, leisure and small gatherings"
+                    },
+                    {
+                        "icon": "🏊‍♂️",
+                        "name": "Individual Private Swimming Pool",
+                        "desc": "Private pool with every villa"
+                    },
+                    {
+                        "icon": "🏡",
+                        "name": "Common Swimming Pool",
+                        "desc": "Shared pool facility at the clubhouse"
+                    },
+                    {
+                        "icon": "🌳",
+                        "name": "Landscaped Gardens",
+                        "desc": "Nature-centered relaxation spaces"
+                    },
+                    {
+                        "icon": "👶",
+                        "name": "Children's Play Area",
+                        "desc": "Designed for safe, engaging outdoor play"
+                    },
+                    {
+                        "icon": "☕",
+                        "name": "Café & Social Spaces",
+                        "desc": "For family time and hosting guests"
+                    }
+                ]
+            },
+            {
+                "title": "Community & Convenience",
+                "items": [
+                    {
+                        "icon": "🛡️",
+                        "name": "Gated Community",
+                        "desc": "Secured entry with controlled access"
+                    },
+                    {
+                        "icon": "📷",
+                        "name": "24x7 CCTV Surveillance",
+                        "desc": "Controlled access for safety"
+                    },
+                    {
+                        "icon": "💧",
+                        "name": "Ample Water Supply",
+                        "desc": "Ensuring uninterrupted comfort"
+                    },
+                    {
+                        "icon": "🛣️",
+                        "name": "Internal Paved Roads",
+                        "desc": "Smooth movement inside the community"
+                    },
+                    {
+                        "icon": "⭐",
+                        "name": "Decorative Main Entrance Gate",
+                        "desc": "Enhancing the premium feel"
+                    }
+                ]
+            },
+            {
+                "title": "Design & Experience-Oriented Features",
+                "items": [
+                    {
+                            "icon": "🌿",
+                            "name": "Modern Zen Architecture",
+                            "desc": "Blending minimalism + nature"
+                    },
+                    {
+                            "icon": "🧭",
+                            "name": "Vastu Compliant Design",
+                            "desc": "For balance & harmony"
+                    },
+                    { 
+                            "icon": "🌲", 
+                            "name": "50% Open Space", 
+                            "desc": "Across the community"
+                    },
+                    {
+                            "icon": "👁️",
+                            "name": "Mountain & Nature-Facing Views",
+                            "desc": "From terraces and balconies"
+                    },
+                    {
+                            "icon": "📏",
+                            "name": "Spacious Living & Lounge Areas",
+                            "desc": "Enhancing openness"
+                    }
+                ]
+            }
+        ]
+    }
+]

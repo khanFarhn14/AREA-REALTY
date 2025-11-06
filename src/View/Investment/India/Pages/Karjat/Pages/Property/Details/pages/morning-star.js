@@ -5,102 +5,11 @@ import { Link } from "react-router-dom";
 import gallery1 from "../../../../../../../../../assets/img/location/details/morning-star/gallery1.png";
 import gallery2 from "../../../../../../../../../assets/img/location/details/morning-star/gallery2.png";
 import Slider from "react-slick";
+import highlights from "../../../../../../../../../json/Location/IndiaExplore/Karjat/Properties/MorningStar/highlights.json";
+import features from "../../../../../../../../../json/Location/IndiaExplore/Karjat/Properties/MorningStar/features.json";
+import villaSpecifications from "../../../../../../../../../json/Location/IndiaExplore/Karjat/Properties/MorningStar/villa-specifications.json";
 
 export default function MorningStar() {
-    // HIGHLIGHT
-    const highlights = [
-        { label: "Total Villas", value: "24" },
-        { label: "Plot Sizes", value: "3099 - 7101 SQ.FT." },
-        { label: "Configurations", value: "4 & 5 BHK" },
-        { label: "Price Range", value: "₹2.25 - 2.50 CR" },
-        { label: "Land Type", value: "NA LAND" },
-        { label: "Status", value: "AVAILABLE", isAvailable: true },
-    ];
-
-    // FEATURES
-    const features = [
-        {
-            title: "RERA Registered",
-            description: "Maharashtra RERA approved project",
-        },
-        {
-            title: "NA Land",
-            description: "Collector-approved non-agricultural land",
-        },
-        {
-            title: "Clear Title",
-            description: "Verified legal documentation",
-        },
-        {
-            title: "Green Certified",
-            description: "Sustainable development practices",
-        },
-    ];
-
-    // VILLA SPECIFICATION
-    const villaSpecifications = [
-        {
-            title: "5 BHK Luxury Villa",
-            beds: 5,
-            baths: 5,
-            price: "₹2.50 Cr",
-            pricePerSqFt: "₹7,407/sq.ft.",
-            reraCarpet: "2249 sq.ft.",
-            usableArea: "3232 sq.ft.",
-            builtUp: "3375 sq.ft.",
-            plotSize: "7101 sq.ft.",
-            features: [
-                "Corner Plot Options",
-                "Private Garden",
-                "Terrace with Mountain View",
-                "Premium Finishes"
-            ],
-            extraCharges: "5% Stamp Duty + 5% GST + 1% Registration",
-            status: "Limited Units",
-            statusColor: "orange"
-        },
-        {
-            title: "4 BHK Luxury Villa - TYPE A",
-            beds: 4,
-            baths: 4,
-            price: "₹2.25 Cr",
-            pricePerSqFt: "₹8,553/sq.ft.",
-            reraCarpet: "2023 sq.ft.",
-            usableArea: "2477 sq.ft.",
-            builtUp: "2631 sq.ft.",
-            plotSize: "4224 sq.ft.",
-            features: [
-                "Optimized Layout",
-                "Private Courtyard",
-                "Dual Balconies",
-                "Modern Fixtures"
-            ],
-            extraCharges: "5% Stamp Duty + 5% GST + 1% Registration",
-            status: "Available",
-            statusColor: "green"
-        },
-        {
-            title: "4 BHK Luxury Villa - TYPE B",
-            beds: 4,
-            baths: 4,
-            price: "₹2.25 Cr",
-            pricePerSqFt: "₹9,282/sq.ft.",
-            reraCarpet: "1975 sq.ft.",
-            usableArea: "2524 sq.ft.",
-            builtUp: "2425 sq.ft.",
-            plotSize: "3099 sq.ft.",
-            features: [
-                "Compact Luxury",
-                "Easy Maintenance",
-                "Efficient Design",
-                "Premium Interiors"
-            ],
-            extraCharges: "5% Stamp Duty + 5% GST + 1% Registration",
-            status: "Available",
-            statusColor: "green"
-        }
-    ];
-
     const mainImages = [
         gallery1,
         gallery2

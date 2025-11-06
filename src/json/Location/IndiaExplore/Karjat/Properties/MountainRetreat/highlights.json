@@ -1,0 +1,31 @@
+[
+    {
+        "label": "Premium Villas",
+        "value": "10"
+    },
+    {
+        "label": "Plot Size",
+        "value": "UP TO 5000 SQ.FT."
+    },
+    {
+        "label": "Configuration",
+        "value": "4 BHK"
+    },
+    {
+        "label": "Price Range",
+        "value": "₹2.65 Cr ONWARDS"
+    },
+    {
+        "label": "Carpet Area",
+        "value": "2160 SQ.FT."
+    },
+    {
+        "label": "Key Feature",
+        "value": "PRIVATE POOL."
+    },
+    {
+        "label": "Status",
+        "value": "AVAILABLE",
+        "isAvailable": true
+    }
+]
