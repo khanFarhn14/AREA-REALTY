@@ -1,0 +1,27 @@
+[
+    {
+        "label": "Total Villas",
+        "value": "15"
+    },
+    {
+        "label": "Villa Size",
+        "value": "1755 SQ.FT."
+    },
+    {
+        "label": "Configuration",
+        "value": "3 BHK"
+    },
+    {
+        "label": "Price",
+        "value": "₹1.09 Cr"
+    },
+    {
+        "label": "Premium Feature",
+        "value": "Riverside Living"
+    },
+    {
+        "label": "Status",
+        "value": "AVAILABLE",
+        "isAvailable": true
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "title": "3 BHK Riverside Villa",
+        "beds": 3,
+        "baths": 3,
+        "price": "₹1.09 Cr",
+        "pricePerSqFt": "₹62,020/sq.ft.",
+        "reraCarpet": "1755 sq.ft.",
+        "usableArea": "1755 sq.ft.",
+        "builtUp": "1755 sq.ft.",
+        "plotSize": "1755 sq.ft.",
+        "features": [ "River View", "Eco Design", "Green Features", "Trail Access" ],
+        "extraCharges": "5% Stamp Duty + 5% GST + 1% Registration",
+        "status": "Available",
+        "statusColor": "green"
+    }
+]

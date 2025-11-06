@@ -1,8 +1,27 @@
 [
-        { "label": "Total Villas", "value": "24" },
-        { "label": "Plot Sizes", "value": "3099 - 7101 SQ.FT." },
-        { "label": "Configurations", "value": "4 & 5 BHK" },
-        { "label": "Price Range", "value": "₹2.25 - 2.50 CR" },
-        { "label": "Land Type", "value": "NA LAND" },
-        { "label": "Status", "value": "AVAILABLE", "isAvailable": true }
-    ]
+    {
+        "label": "Total Villas",
+        "value": "24"
+    },
+    {
+        "label": "Plot Sizes",
+        "value": "3099 - 7101 SQ.FT."
+    },
+    {
+        "label": "Configurations",
+        "value": "4 & 5 BHK"
+    },
+    {
+        "label": "Price Range",
+        "value": "₹2.25 - 2.50 CR"
+    },
+    {
+        "label": "Land Type",
+        "value": "NA LAND"
+    },
+    {
+        "label": "Status",
+        "value": "AVAILABLE",
+        "isAvailable": true
+    }
+]

@@ -8,7 +8,7 @@
         "reraCarpet": "7000 sq.ft.",
         "usableArea": "Build to Suit",
         "builtUp": "Customizable",
-        "plotSize": "Customizable.",
+        "plotSize": "Customizable",
         "features": [
             "Hill-Facing Plot",
             "Maximum FSI",
@@ -90,7 +90,7 @@
                     {
                         "icon": "🧭",
                         "name": "Flexible Plot Design",
-                        "desc": "uild to suit with maximum FSI and design freedom"
+                        "desc": "Build to suit with maximum FSI and design freedom"
                     },
                     {
                         "icon": "🌲",
@@ -104,6 +104,26 @@
                     }
                 ]
             }
+        ],
+        "locationConnectivity": [
+            {
+                "title": "Proximity & Access",
+                "list": [
+                    "Near Bhimashankar Hills — Scenic beauty and nature",
+                    "Easily accessible from Mumbai & Pune",
+                    "Fast-growing weekend home market",
+                    "Close to adventure sports & trekking"
+                ]
+            },
+            {
+                "title": "Investment Highlights",
+                "list": [
+                    "Only 70 exclusive plots — Limited availability",
+                    "High rental demand — ₹20-25 Lakhs/year potential",
+                    "Premium location with value retention",
+                    "Karjat emerging as premier second home destination"
+                ]
+            }
         ]
     },
     {
@@ -115,7 +135,7 @@
         "reraCarpet": "6000 sq.ft.",
         "usableArea": "Build to Suit",
         "builtUp": "Customizable",
-        "plotSize": "Customizable.",
+        "plotSize": "Customizable",
         "features": [
             "Valley Views",
             "Corner Plot Options",
@@ -211,6 +231,26 @@
                     }
                 ]
             }
+        ],
+        "locationConnectivity": [
+            {
+                "title": "Proximity & Access",
+                "list": [
+                    "Near Bhimashankar Hills — Scenic beauty and nature",
+                    "Easily accessible from Mumbai & Pune",
+                    "Fast-growing weekend home market",
+                    "Close to adventure sports & trekking"
+                ]
+            },
+            {
+                "title": "Investment Highlights",
+                "list": [
+                    "Only 70 exclusive plots — Limited availability",
+                    "High rental demand — ₹20-25 Lakhs/year potential",
+                    "Premium location with value retention",
+                    "Karjat emerging as premier second home destination"
+                ]
+            }
         ]
     },
     {
@@ -222,12 +262,12 @@
         "reraCarpet": "5000 sq.ft.",
         "usableArea": "Build to Suit",
         "builtUp": "Customizable",
-        "plotSize": "Customizable.",
+        "plotSize": "Customizable",
         "features": [
             "Compact & Affordable",
             "Community Access",
             "Strategic Location",
-            "Value Investmen"
+            "Value Investment"
         ],
         "extraCharges": "As per Government Norms",
         "status": "Limited Units",
@@ -321,6 +361,26 @@
                         "name": "NA Plot Advantage",
                         "desc": "Non-agricultural status with full development rights"
                     }
+                ]
+            }
+        ],
+        "locationConnectivity": [
+            {
+                "title": "Proximity & Access",
+                "list": [
+                    "Near Bhimashankar Hills — Scenic beauty and nature",
+                    "Easily accessible from Mumbai & Pune",
+                    "Fast-growing weekend home market",
+                    "Close to adventure sports & trekking"
+                ]
+            },
+            {
+                "title": "Investment Highlights",
+                "list": [
+                    "Only 70 exclusive plots — Limited availability",
+                    "High rental demand — ₹20-25 Lakhs/year potential",
+                    "Premium location with value retention",
+                    "Karjat emerging as premier second home destination"
                 ]
             }
         ]

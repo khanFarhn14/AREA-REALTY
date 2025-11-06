@@ -212,6 +212,21 @@ export default function SummerHills() {
                                                             </div>
                                                         </div>
                                                     ))}
+
+                                                    <hr />
+
+                                                    <div className="location-connectivity">
+                                                        <h3>Location & Connectivity</h3>
+
+                                                        {villa.locationConnectivity.map((listItem, i) => (
+                                                            <ul key={i}>
+                                                                <li>{listItem?.title}</li>
+                                                                {listItem.list.map((list) => (
+                                                                    <li>{list}</li>
+                                                                ))}
+                                                            </ul>
+                                                        ))}
+                                                    </div>
                                                 </div>
                                             ))}
                                         </Accordion.Body>
