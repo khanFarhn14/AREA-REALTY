@@ -1,0 +1,328 @@
+[
+    {
+        "id": "01",
+        "title": "Premium NA Plot — Type A",
+        "beds": "7000 sq. ft.",
+        "price": "Contact for Details",
+        "pricePerSqFt": "Best Value",
+        "reraCarpet": "7000 sq.ft.",
+        "usableArea": "Build to Suit",
+        "builtUp": "Customizable",
+        "plotSize": "Customizable.",
+        "features": [
+            "Hill-Facing Plot",
+            "Maximum FSI",
+            "Premium Location",
+            "Flexible Design"
+        ],
+        "extraCharges": "5% Stamp Duty + 5% GST + 1% Registration",
+        "status": "Available",
+        "statusColor": "green",
+        "amenityGroups": [
+            {
+                "title": "Signature Experiences",
+                "items": [
+                    {
+                        "icon": "🏋️‍♀️",
+                        "name": "Infinity Pool",
+                        "desc": "Spectacular infinity-edge pool with panoramic valley views"
+                    },
+                    {
+                        "icon": "🏊‍♂️",
+                        "name": "Sunset Decks",
+                        "desc": "Premium terrace spaces designed to capture breathtaking sunsets"
+                    },
+                    {
+                        "icon": "🏡",
+                        "name": "Vineyard Spaces",
+                        "desc": "Dedicated vineyard-inspired landscape zones for wine culture"
+                    },
+                    {
+                        "icon": "🌳",
+                        "name": "Wellness Spa",
+                        "desc": "Full-service spa facilities for holistic wellness and relaxation"
+                    },
+                    {
+                        "icon": "👶",
+                        "name": "Adventure Zones",
+                        "desc": "Curated outdoor adventure spaces and activity areas"
+                    }
+                ]
+            },
+            {
+                "title": "Community & Lifestyle",
+                "items": [
+                    {
+                        "icon": "🛡️",
+                        "name": "Private Gated Estate",
+                        "desc": "Exclusive luxury villa estate with controlled access"
+                    },
+                    {
+                        "icon": "📷",
+                        "name": "24x7 Security",
+                        "desc": "Round-the-clock surveillance and security systems"
+                    },
+                    {
+                        "icon": "💧",
+                        "name": "Lush Greenery",
+                        "desc": "Surrounded by landscaped gardens and natural beauty"
+                    },
+                    {
+                        "icon": "🛣️",
+                        "name": "Panoramic Hill Views",
+                        "desc": "Stunning vistas of hills and valleys from every plot"
+                    },
+                    {
+                        "icon": "⭐",
+                        "name": "Resort-Style Living",
+                        "desc": "Everyday luxury with resort amenities and experiences"
+                    }
+                ]
+            },
+            {
+                "title": "Design & Architecture",
+                "items": [
+                    {
+                        "icon": "🌿",
+                        "name": "Californian Hillside Design",
+                        "desc": "Open, breezy architecture inspired by California luxury estates"
+                    },
+                    {
+                        "icon": "🧭",
+                        "name": "Flexible Plot Design",
+                        "desc": "uild to suit with maximum FSI and design freedom"
+                    },
+                    {
+                        "icon": "🌲",
+                        "name": "Premium Landscaping",
+                        "desc": "Professionally designed landscaped outdoor spaces"
+                    },
+                    {
+                        "icon": "👁️",
+                        "name": "NA Plot Advantage",
+                        "desc": "Non-agricultural status with full development rights"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "02",
+        "title": "Premium NA Plot — Type B",
+        "beds": "6000 sq. ft.",
+        "price": "Contact for Details",
+        "pricePerSqFt": "Competitive",
+        "reraCarpet": "6000 sq.ft.",
+        "usableArea": "Build to Suit",
+        "builtUp": "Customizable",
+        "plotSize": "Customizable.",
+        "features": [
+            "Valley Views",
+            "Corner Plot Options",
+            "Good FSI",
+            "Design Freedom"
+        ],
+        "extraCharges": "As per Government Norms",
+        "status": "Available",
+        "statusColor": "green",
+        "amenityGroups": [
+            {
+                "title": "Signature Experiences",
+                "items": [
+                    {
+                        "icon": "🏋️‍♀️",
+                        "name": "Infinity Pool",
+                        "desc": "Spectacular infinity-edge pool with panoramic valley views"
+                    },
+                    {
+                        "icon": "🏊‍♂️",
+                        "name": "Sunset Decks",
+                        "desc": "Premium terrace spaces designed to capture breathtaking sunsets"
+                    },
+                    {
+                        "icon": "🏡",
+                        "name": "Vineyard Spaces",
+                        "desc": "Dedicated vineyard-inspired landscape zones for wine culture"
+                    },
+                    {
+                        "icon": "🌳",
+                        "name": "Wellness Spa",
+                        "desc": "Full-service spa facilities for holistic wellness and relaxation"
+                    },
+                    {
+                        "icon": "👶",
+                        "name": "Adventure Zones",
+                        "desc": "Curated outdoor adventure spaces and activity areas"
+                    }
+                ]
+            },
+            {
+                "title": "Community & Lifestyle",
+                "items": [
+                    {
+                        "icon": "🛡️",
+                        "name": "Private Gated Estate",
+                        "desc": "Exclusive luxury villa estate with controlled access"
+                    },
+                    {
+                        "icon": "📷",
+                        "name": "24x7 Security",
+                        "desc": "Round-the-clock surveillance and security systems"
+                    },
+                    {
+                        "icon": "💧",
+                        "name": "Lush Greenery",
+                        "desc": "Surrounded by landscaped gardens and natural beauty"
+                    },
+                    {
+                        "icon": "🛣️",
+                        "name": "Panoramic Hill View",
+                        "desc": "Stunning vistas of hills and valleys from every plot"
+                    },
+                    {
+                        "icon": "⭐",
+                        "name": "Resort-Style Living",
+                        "desc": "Everyday luxury with resort amenities and experiences"
+                    }
+                ]
+            },
+            {
+                "title": "Design & Architecture",
+                "items": [
+                    {
+                        "icon": "🌿",
+                        "name": "Californian Hillside Design",
+                        "desc": "Open, breezy architecture inspired by California luxury estates"
+                    },
+                    {
+                        "icon": "🧭",
+                        "name": "Flexible Plot Design",
+                        "desc": "Build to suit with maximum FSI and design freedom"
+                    },
+                    {
+                        "icon": "🌲",
+                        "name": "Premium Landscaping",
+                        "desc": "Professionally designed landscaped outdoor spaces"
+                    },
+                    {
+                        "icon": "👁️",
+                        "name": "NA Plot Advantage",
+                        "desc": "Non-agricultural status with full development rights"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "03",
+        "title": "Premium NA Plot — Type C",
+        "beds": "5000 sq. ft.",
+        "price": "Contact for Details",
+        "pricePerSqFt": "Entry Level",
+        "reraCarpet": "5000 sq.ft.",
+        "usableArea": "Build to Suit",
+        "builtUp": "Customizable",
+        "plotSize": "Customizable.",
+        "features": [
+            "Compact & Affordable",
+            "Community Access",
+            "Strategic Location",
+            "Value Investmen"
+        ],
+        "extraCharges": "As per Government Norms",
+        "status": "Limited Units",
+        "statusColor": "orange",
+        "amenityGroups": [
+            {
+                "title": "Signature Experiences",
+                "items": [
+                    {
+                        "icon": "🏋️‍♀️",
+                        "name": "Infinity Pool",
+                        "desc": "Spectacular infinity-edge pool with panoramic valley views"
+                    },
+                    {
+                        "icon": "🏊‍♂️",
+                        "name": "Sunset Decks",
+                        "desc": "Premium terrace spaces designed to capture breathtaking sunsets"
+                    },
+                    {
+                        "icon": "🏡",
+                        "name": "Vineyard Spaces",
+                        "desc": "Dedicated vineyard-inspired landscape zones for wine culture"
+                    },
+                    {
+                        "icon": "🌳",
+                        "name": "Wellness Spa",
+                        "desc": "Full-service spa facilities for holistic wellness and relaxation"
+                    },
+                    {
+                        "icon": "👶",
+                        "name": "Adventure Zones",
+                        "desc": "Curated outdoor adventure spaces and activity areas"
+                    }
+                ]
+            },
+            {
+                "title": "Community & Lifestyle",
+                "items": [
+                    {
+                        "icon": "🛡️",
+                        "name": "Private Gated Estate",
+                        "desc": "Exclusive luxury villa estate with controlled access"
+                    },
+                    {
+                        "icon": "📷",
+                        "name": "24x7 Security",
+                        "desc": "Round-the-clock surveillance and security systems"
+                    },
+                    {
+                        "icon": "💧",
+                        "name": "Lush Greenery",
+                        "desc": "Surrounded by landscaped gardens and natural beauty"
+                    },
+                    {
+                        "icon": "🛣️",
+                        "name": "Panoramic Hill Views",
+                        "desc": "Stunning vistas of hills and valleys from every plot"
+                    },
+                    {
+                        "icon": "⭐",
+                        "name": "Resort-Style Living",
+                        "desc": "Everyday luxury with resort amenities and experiences"
+                    }
+                ]
+            },
+            {
+                "title": "Design & Architecture",
+                "items": [
+                    {
+                        "icon": "🌿",
+                        "name": "Californian Hillside Design",
+                        "desc": "Open, breezy architecture inspired by California luxury estates"
+                    },
+                    {
+                        "icon": "🧭",
+                        "name": "Flexible Plot Design",
+                        "desc": "Build to suit with maximum FSI and design freedom"
+                    },
+                    {
+                        "icon": "🌲",
+                        "name": "Premium Landscaping",
+                        "desc": "Professionally designed landscaped outdoor spaces"
+                    },
+                    {
+                        "icon": "👁️",
+                        "name": "Mountain & Nature-Facing Views",
+                        "desc": "From terraces and balconies"
+                    },
+                    {
+                        "icon": "📏",
+                        "name": "NA Plot Advantage",
+                        "desc": "Non-agricultural status with full development rights"
+                    }
+                ]
+            }
+        ]
+    }
+]

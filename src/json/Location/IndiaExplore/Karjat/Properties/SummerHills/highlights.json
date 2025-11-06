@@ -1,0 +1,31 @@
+[
+    {
+        "label": "Exclusive NA Plots",
+        "value": "70"
+    },
+    {
+        "label": "Plot Sizes",
+        "value": "5000 - 7000 SQ.FT."
+    },
+    {
+        "label": "Premium Location",
+        "value": "BHIMASHANKAR HILLS"
+    },
+    {
+        "label": "Architecture Style",
+        "value": "CALIFORNIAN DESIGN"
+    },
+    {
+        "label": "Signature Feature",
+        "value": "INFINITY POOL"
+    },
+    {
+        "label": "Living Experience",
+        "value": "RESORT LIFESTYLE"
+    },
+    {
+        "label": "Status",
+        "value": "AVAILABLE",
+        "isAvailable": true
+    }
+]
